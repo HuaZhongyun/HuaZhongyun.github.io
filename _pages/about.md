@@ -109,6 +109,8 @@ My research interests include:
 
 <li id="paperdistance"> Xinrui Liu, <B>Zhongyun Hua*</B>, Mingyang Song, Yifeng Zheng, Guoai Xu, and Xiaohua Jia,, "PVF-FD: Free-Rider Detection in Privacy-Preserving Vertical Federated Learning ", <B><I>IEEE Transactions on Dependable and Secure Computing</I></B>, accepted, 2025. </li>
 
+<li id="paperdistance"> Jianhui Zou, Weijia Cao, Nankun Mu*,Shuang Yi, Yifeng Zheng, Zhaoquan Gu, and <B>Zhongyun Hua</B>, "Reversible Data Hiding over Encrypted Images via Intrinsic Correlation in Block-Based Secret Sharing", <B><I>ACM Transactions on Multimedia Computing, Communications, and Applications</I></B>, accepted, 2025. </li>
+
 <li id="paperdistance"> Longji Li, Yifeng Zheng*, Songlei Wang, <B>Zhongyun Hua</B>, Lei Xu, and Yansong Gao, "Privacy-Assured Analytics on Decentralized Graphs: The Case of Graph Learning", <B><I>Proc. of 24th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)</I></B>, accepted, 2025. </li>
 
 <li id="paperdistance"> <B>Zhongyun Hua</B>, Jianhui Zou, Yifeng Zheng*, Zhili Zhou, Fei Peng, and Qing Liao, "Large-Capacity Reversible Data Hiding over Encrypted Images via Pixel Correlation Recovery", <B><I>IEEE Transactions on Dependable and Secure Computing</I></B>, accepted, 2025. </li>
