@@ -34,7 +34,8 @@ My research interests include:
 <span class='anchor' id='-lwzl'></span>
 
 <h1 id="-news">🔥 News</h1>
-<ul>
+<ul
+<li><em>2026.1</em>:  🎉🎉 A paper is accepted by IEEE TIP; A paper is accepted by IEEE TDSC; A paper is accepted by ICLR 2026 </li>
 <li><em>2025.12</em>:  🎉🎉 Two paper are accepted by IEEE TDSC </li>
 <li><em>2025.11</em>:  🎉🎉 A paper is accepted by IEEE TII; A paper is accepted by AAAI 2026; I am recognized as a 'Highly Cited Researcher 2025' </li>
 <li><em>2025.10</em>:  🎉🎉 Our paper is awarded the ACM CCS 2025 Distinguished Paper Award </li>
@@ -171,8 +172,13 @@ Similar Data in Cloud Media Sharing”,  <B><I>IEEE Transactions on Information 
 
 
  <h4 id="Multimedia Security and Trustworthy AI:">Multimedia Security, Multimedia Forensics, and AI Security:</h4>
+  <li id="paperdistance"> Yuhang Zhou, <B>Zhongyun Hua*</B>, Zhaoquan Gu, Keke Tang, Rushi Lan, Yushu Zhang, Qing Liao, Leo Yu Zhang，"Nasty Adversarial Training: A Probability Sparsity Perspective for Robustness Enhancement",  <B><I>Proc. of The Fourteenth International Conference on Learning Representations</I></B>, accepted, 2026. </li>
+  
+  <li id="paperdistance"> Kuiyuan Zhang, Yuze Zhao, <B>Zhongyun Hua</B>, Yushu Zhang, Qing Liao, and Wei Jiang*，"Tri-View Collaborative Graph Learning for Robust Deepfake Speech Detection",   <B><I>IEEE Transactions on Dependable and Secure Computing</I></B>, accepted, 2026. </li>
 
-   <li id="paperdistance"> Xiangli Xiao, Yushu Zhang*, Ruoyu Zhao, Zhongyun Hua, Wenying Wen, and Yuming Fang，"A Dual-Protection Method for 3D Object Security and Copyright: Watermark Embedding During Decryption",   <B><I>IEEE Transactions on Dependable and Secure Computing</I></B>, accepted, 2025. </li>
+ <li id="paperdistance"> Junfeng Guo, Hui Wang, Shouxin Liu, Yushu Zhang, <B>Zhongyun Hua</B>, Seok-Tae Kim, and Xiaowei Li*，"SACMark: Spatial-Angle Consistency Watermarking Network for Light Field Image Copyright Protection",   <B><I>IEEE Transactions on Image Processing</I></B>, accepted, 2026. </li>
+ 
+   <li id="paperdistance"> Xiangli Xiao, Yushu Zhang*, Ruoyu Zhao, <B>Zhongyun Hua</B>, Wenying Wen, and Yuming Fang，"A Dual-Protection Method for 3D Object Security and Copyright: Watermark Embedding During Decryption",   <B><I>IEEE Transactions on Dependable and Secure Computing</I></B>, accepted, 2025. </li>
 
   <li id="paperdistance"> Yuhang Zhou, Yanxiang Zhao, <B>Zhongyun Hua*</B>, Zhipu Liu, Zhaoquan Gu, Qing Liao, Leo Yu Zhang，"Debiased Dual-Invariant Defense for Adversarially Robust Person Re-Identification",   <B><I>Proc. of Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI)</I></B>, 2026. </li>
   
