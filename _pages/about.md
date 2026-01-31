@@ -334,7 +334,11 @@ Expansive Learning and Confidence Judgement", <B><I>IEEE Transactions on Circuit
 
 <h4 id="Nonlinear Systems and Applications:">Nonlinear Systems and Applications:</h4>
 <li id="paperdistance"> Yinxing Zhang, <B>Zhongyun Hua*</B>, Han Bao, Member, and Hejiao Huang, "1D Complex-Variable Chaotic Model With Hardware Implementation", <B><I> IEEE Transactions on Industrial Informatics </I></B>, in press, 2025. </li>
-<li id="paperdistance"> Han Bao, Jiahua Fan, <B>Zhongyun Hua</B, Quan Xu, Bocheng Bao, "Discrete Memristive Hopfield Neural Network and Application in Memristor-State-Based Encryption", <B><I> IEEE Internet of Things Journal </I></B>, vol. 12, no. 15, pp. 31843 - 31855, 2025. </li>
+
+
+<li id="paperdistance"> Han Bao, Jiahua Fan, <B>Zhongyun Hua</B>, Quan Xu, Bocheng Bao, "Discrete Memristive Hopfield Neural Network and Application in Memristor-State-Based Encryption", <B><I> IEEE Internet of Things Journal </I></B>, vol. 12, no. 15, pp. 31843 - 31855, 2025. </li>
+
+
 <li id="paperdistance"> <B>Zhongyun Hua</B>, Zihua Wu, Yinxing Zhang*, Han Bao, Yicong Zhou, "Two-Dimensional Cyclic Chaotic System for Noise-Reduced OFDM-DCSK Communication", <B><I> IEEE Transactions on Circuits and Systems I: Regular Papers </I></B>, in press, 2024. </li>
 <li id="paperdistance">Bocheng Bao, Haigang Tang, Han Bao*, <B>Zhongyun Hua</B>, Quan Xu, and Mo Chen, "Simplified Discrete Two-Neuron Hopfield Neural Network and FPGA Implementation", <B><I>IEEE Transactions on Industrial Electronics </I></B>, 2024. </li>
 <li id="paperdistance">Han Bao, Yuanhui Su, <B>Zhongyun Hua</B>, Mo Chen, Senior, and Bocheng Bao*, "Two-Dimensional Bounded Chaotic System With Hardware Implementation", <B><I>IEEE Transactions on Industrial Electronics </I></B>, 2024. </li>
