@@ -35,7 +35,7 @@ My research interests include:
 
 <h1 id="-news">🔥 News</h1>
 <ul>
-<li><em>2026.1</em>:  🎉🎉 A paper is accepted by IEEE TDSC </li>
+<li><em>2026.1</em>:  🎉🎉 A paper is accepted by IEEE TDSC; A paper is accepted by IEEE TIE </li>
 <li><em>2026.1</em>:  🎉🎉 A paper is accepted by IEEE TIP; A paper is accepted by IEEE TDSC; A paper is accepted by ICLR 2026 </li>
 <li><em>2025.12</em>:  🎉🎉 Two paper are accepted by IEEE TDSC </li>
 <li><em>2025.11</em>:  🎉🎉 A paper is accepted by IEEE TII; A paper is accepted by AAAI 2026; I am recognized as a 'Highly Cited Researcher 2025' </li>
@@ -335,6 +335,9 @@ Expansive Learning and Confidence Judgement", <B><I>IEEE Transactions on Circuit
 
 
 <h4 id="Nonlinear Systems and Applications:">Nonlinear Systems and Applications:</h4>
+
+li id="paperdistance"> Yinxing Zhang, Yukai Liu, Han Bao, Hao Chen, Tao Shen*, and <B>Zhongyun Hua</B>, , "Two-Dimensional Multi-Valued Chaotic Map with a Zynq-Based Parallel PRNG Design", <B><I> IEEE Transactions on Industrial Electronics </I></B>, in press, 2025. </li>
+
 <li id="paperdistance"> Yinxing Zhang, <B>Zhongyun Hua*</B>, Han Bao, Member, and Hejiao Huang, "1D Complex-Variable Chaotic Model With Hardware Implementation", <B><I> IEEE Transactions on Industrial Informatics </I></B>, in press, 2025. </li>
 
 <li id="paperdistance"> Han Bao, Jiahua Fan, <B>Zhongyun Hua</B>, Quan Xu, Bocheng Bao, "Discrete Memristive Hopfield Neural Network and Application in Memristor-State-Based Encryption", <B><I> IEEE Internet of Things Journal </I></B>, vol. 12, no. 15, pp. 31843-31855, 2025. </li>
