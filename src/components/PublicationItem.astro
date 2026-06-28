@@ -13,6 +13,7 @@ const bibtex = toBibtex(pub);
     <div class="pub-links">
       {pub.award && <span class="award">🏆 {pub.award}</span>}
       {pub.doi && <a href={pub.doi} target="_blank" rel="noopener noreferrer" aria-label="DOI (opens in new tab)">DOI</a>}
+      {pub.github && <a href={pub.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in new tab)">GitHub</a>}
       <button type="button" class="bibtex-btn" data-bibtex={bibtex} aria-haspopup="dialog" aria-label="Show BibTeX">BibTeX</button>
     </div>
   </div>

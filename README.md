@@ -31,7 +31,8 @@
   corresponding = {yes},        % 可选：标记花忠云为通讯作者（*）
   status = {accepted},          % 可选：accepted | in press
   selected = {yes},             % 可选：在首页“代表性论文”中展示
-  doi = {https://doi.org/...},  % 可选链接：doi / pdf / code
+  doi = {https://doi.org/...},     % 可选
+  github = {https://github.com/...}, % 可选：代码仓库链接（GitHub 按钮）
   pdf = {/pdf/your-paper.pdf}
 }
 ```

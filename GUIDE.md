@@ -103,7 +103,7 @@ npm run check          # TypeScript 类型检查
   status = {accepted},           % 可选：accepted | in press
   selected = {yes},             % 可选：在首页“代表性论文”中展示
   doi = {https://doi.org/10.1109/...},  % 可选：链接（DOI 或论文页 URL）
-  code = {/Code/yourcode.zip},   % 可选：代码链接（显示 Code 按钮）
+  github = {https://github.com/user/repo},  % 可选：代码仓库链接（显示 GitHub 按钮）
   ccf = {A},                     % 可选：CCF 分区 A/B/C
   jcr = {Q1},                    % 可选：JCR 分区 Q1–Q4
   cas = {2},                     % 可选：中科院大类分区 1–4

@@ -32,7 +32,8 @@ Append one entry to `src/data/publications.bib`:
   corresponding = {yes},        % optional: marks Hua as corresponding (*)
   status = {accepted},          % optional: accepted | in press
   selected = {yes},             % optional: feature on the homepage
-  doi = {https://doi.org/...},  % optional links: doi / pdf / code
+  doi = {https://doi.org/...},      % optional
+  github = {https://github.com/...}, % optional: code repo link (GitHub button)
   pdf = {/pdf/your-paper.pdf}
 }
 ```

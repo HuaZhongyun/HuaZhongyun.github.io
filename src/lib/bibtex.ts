@@ -22,6 +22,7 @@ export interface Publication {
   award?: string;
   selected: boolean;
   doi?: string;
+  github?: string;   // link to a code repository
   ccf?: string;      // A | B | C
   jcr?: string;      // Q1..Q4
   cas?: string;      // 中科院大类分区 1..4
@@ -55,6 +56,7 @@ function loadPublications(): Publication[] {
       award: opt(f.award),
       selected: s(f.selected) === 'yes',
       doi: opt(f.doi),
+      github: opt(f.github),
       ccf: opt(f.ccf),
       jcr: opt(f.jcr),
       cas: opt(f.cas),
