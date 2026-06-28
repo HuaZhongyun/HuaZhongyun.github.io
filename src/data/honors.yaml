@@ -1,0 +1,29 @@
+# Awards & recognitions (most recent first). Rendered as a bulleted list:
+# **title** (note) — year.  highlight: true emphasizes the entry.
+- year: "2022–2025"
+  highlight: true
+  title:
+    en: "Clarivate Highly Cited Researcher"
+    zh: "科睿唯安“高被引学者”"
+  note:
+    en: "four consecutive years"
+    zh: "连续四年"
+  url: "https://www.webofscience.com/wos/author/record/F-1887-2016"
+- year: "2021–2023"
+  title:
+    en: "Chinese Most Cited Researchers (Elsevier)"
+    zh: "中国高被引学者（爱思唯尔）"
+- year: "2017"
+  title:
+    en: "Harbin Institute of Technology Young Talents Program (Associate Professor)"
+    zh: "哈尔滨工业大学青年拔尖人才计划（副教授）"
+- year: "2017"
+  title:
+    en: "Shenzhen Overseas High-level Talents Program"
+    zh: "深圳市海外高层次人才计划"
+- title:
+    en: "Eighteen ESI Highly Cited Papers (Web of Science)"
+    zh: "ESI 高被引论文 18 篇（Web of Science）"
+- title:
+    en: "Most Cited & Most Downloaded Papers in Information Sciences and Signal Processing"
+    zh: "Information Sciences 与 Signal Processing 期刊最高被引/最高下载论文"

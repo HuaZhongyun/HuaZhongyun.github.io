@@ -1,0 +1,82 @@
+---
+import Base from '../layouts/Base.astro';
+import L from '../components/L.astro';
+import TagSphere from '../components/TagSphere.astro';
+import { t } from '../i18n/ui';
+import { getPublications, venueAbbrev, type Publication } from '../lib/bibtex';
+import { getPubCategories, getTopics, pair } from '../lib/content';
+
+const pubs = getPublications();
+const groups = getPubCategories(); // areas, in categories.yaml order
+const topics = getTopics();
+
+// venue+year tag for a paper, e.g. "TIFS'24"
+function tagText(p: Publication): string {
+  const ab = venueAbbrev(p.venue);
+  const yy = p.year ? String(p.year).slice(-2) : '';
+  if (!ab) return p.year ? String(p.year) : '';
+  return yy ? `${ab}'${yy}` : ab;
+}
+function paperUrl(p: Publication): string {
+  return p.doi || p.code || '';
+}
+
+// Build sub-topics (fine keys) -> tag list for an area, in the area's key order.
+function subtopics(area: { keys?: string[]; key: string }) {
+  const keys = area.keys && area.keys.length ? area.keys : [area.key];
+  return keys
+    .map((k) => {
+      // only top-tier works: CCF-A or CAS (中科院) zone 1
+      const items = pubs.filter((p) => p.category === k && (p.ccf === 'A' || p.cas === '1'));
+      if (!items.length) return null;
+      const seen: Record<string, number> = {};
+      const tags = items.map((p) => {
+        let label = tagText(p);
+        if (seen[label] != null) {
+          seen[label] += 1;
+          label = `${label}${String.fromCharCode(96 + seen[label])}`; // a, b, c…
+        } else seen[label] = 0;
+        return { label, url: paperUrl(p), title: p.title };
+      });
+      return { key: k, name: topics[k] ? pair(topics[k]) : { en: k, zh: k }, tags };
+    })
+    .filter(Boolean) as { key: string; name: { en: string; zh: string }; tags: { label: string; url: string; title: string }[] }[];
+}
+
+const areas = groups
+  .map((g) => ({ key: g.key, name: pair(g.name), desc: g.desc ? pair(g.desc) : null, subs: subtopics(g) }))
+  .filter((a) => a.subs.length);
+---
+<Base title="Research">
+  <section class="research-head">
+    <div class="research-head-text">
+      <h2 class="section-title"><L en={t('nav.research', 'en')} zh={t('nav.research', 'zh')} /></h2>
+      <p><L en={t('research.intro', 'en')} zh={t('research.intro', 'zh')} /></p>
+      <div class="btn-row">
+        <a class="btn" href="/publications/"><L en={t('btn.allPubs', 'en')} zh={t('btn.allPubs', 'zh')} /></a>
+      </div>
+    </div>
+    <TagSphere />
+  </section>
+
+  {areas.map((a) => (
+    <section class="research-area">
+      <h2 class="section-title"><L en={a.name.en} zh={a.name.zh} /></h2>
+      {a.desc && <p class="area-desc"><L en={a.desc.en} zh={a.desc.zh} /></p>}
+      <ul class="subtopics">
+        {a.subs.map((s) => (
+          <li>
+            <span class="subtopic-name"><L en={s.name.en} zh={s.name.zh} />:</span>
+            <span class="vtags">
+              {s.tags.map((tg) => (
+                tg.url
+                  ? <a class="vtag" href={tg.url} target="_blank" rel="noopener noreferrer" aria-label={`${tg.title} (${tg.label}, opens in new tab)`}>{tg.label}</a>
+                  : <span class="vtag vtag-plain" title={tg.title}>{tg.label}</span>
+              ))}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>

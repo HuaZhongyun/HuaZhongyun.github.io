@@ -1,0 +1,67 @@
+---
+import Base from '../layouts/Base.astro';
+import L from '../components/L.astro';
+import { t } from '../i18n/ui';
+import { pair, getService } from '../lib/content';
+const s = getService();
+const roleVenue = (items: { period: string; role: any; venue?: any }[]) =>
+  items.map((it) => ({ period: it.period, role: pair(it.role), venue: it.venue ? pair(it.venue) : null }));
+const editorial = roleVenue(s.editorial);
+const chair = roleVenue(s.chair);
+const membership = roleVenue(s.membership);
+---
+<Base title="Service">
+  <section>
+    <h2 class="section-title"><L en={t('nav.service', 'en')} zh={t('nav.service', 'zh')} /></h2>
+
+    <h3 class="sub-head"><L en={t('section.editorial', 'en')} zh={t('section.editorial', 'zh')} /></h3>
+    <ul class="timeline">
+      {editorial.map((it) => (
+        <li>
+          <span class="when">{it.period}</span>
+          <span class="what">
+            <span class="role"><L en={it.role.en} zh={it.role.zh} /></span>,
+            <span class="org"> <L en={it.venue!.en} zh={it.venue!.zh} /></span>
+          </span>
+        </li>
+      ))}
+    </ul>
+
+    <h3 class="sub-head"><L en={t('section.chair', 'en')} zh={t('section.chair', 'zh')} /></h3>
+    <ul class="timeline">
+      {chair.map((it) => (
+        <li>
+          <span class="when">{it.period}</span>
+          <span class="what">
+            <span class="role"><L en={it.role.en} zh={it.role.zh} /></span>,
+            <span class="org"> <L en={it.venue!.en} zh={it.venue!.zh} /></span>
+          </span>
+        </li>
+      ))}
+    </ul>
+
+    {membership.length > 0 && (
+      <>
+        <h3 class="sub-head"><L en={t('section.membership', 'en')} zh={t('section.membership', 'zh')} /></h3>
+        <ul class="timeline">
+          {membership.map((it) => (
+            <li>
+              <span class="when">{it.period}</span>
+              <span class="what"><span class="role"><L en={it.role.en} zh={it.role.zh} /></span></span>
+            </li>
+          ))}
+        </ul>
+      </>
+    )}
+
+    <h3 class="sub-head"><L en={t('section.pc', 'en')} zh={t('section.pc', 'zh')} /></h3>
+    <ul class="plain-list">
+      {s.pc.map((x) => <li>{x}</li>)}
+    </ul>
+
+    <h3 class="sub-head"><L en={t('section.review', 'en')} zh={t('section.review', 'zh')} /></h3>
+    <ul class="plain-list">
+      {s.review.map((x) => <li>{x}</li>)}
+    </ul>
+  </section>
+</Base>

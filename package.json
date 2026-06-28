@@ -1,0 +1,25 @@
+{
+  "name": "huazhongyun-homepage",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "validate:data": "node scripts/validate-data.mjs",
+    "prebuild": "node scripts/validate-data.mjs",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "3.2.1",
+    "@retorquere/bibtex-parser": "^9.0.20",
+    "astro": "^4.16.18",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@types/js-yaml": "^4.0.9",
+    "typescript": "^5.7.2"
+  }
+}

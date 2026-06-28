@@ -1,0 +1,95 @@
+# Personal profile + social links. Edit here to update the hero/footer.
+name:
+  en: Zhongyun Hua
+  zh: 花忠云
+title:
+  en: Professor
+  zh: 教授
+affiliation:
+  en: School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen
+  zh: 哈尔滨工业大学（深圳）计算机科学与技术学院
+# Shorter form (university only) used in the top masthead.
+university:
+  en: Harbin Institute of Technology, Shenzhen
+  zh: 哈尔滨工业大学（深圳）
+location:
+  en: Shenzhen, Guangdong, China
+  zh: 中国广东深圳
+photo: /images/Authors.jpg
+emails:
+  - huazhongyun@hit.edu.cn
+  - huazyum@gmail.com
+
+# Google Scholar profile id — also used by the citation badge.
+scholar_id: Sl0BI_IAAAAJ
+
+# Social / academic links. Leave url empty to hide an icon.
+socials:
+  - { key: scholar, label: Google Scholar, url: "https://scholar.google.com/citations?user=Sl0BI_IAAAAJ&hl=en" }
+  - { key: orcid, label: Web of Science, url: "https://www.webofscience.com/wos/author/record/F-1887-2016" }
+  - { key: github, label: GitHub, url: "https://github.com/HuaZhongyun" }
+  - { key: email, label: Email, url: "mailto:huazhongyun@hit.edu.cn" }
+
+bio:
+  en: >
+    I am currently a Professor with the School of Computer Science and Technology at
+    Harbin Institute of Technology, Shenzhen. I received the B.S. degree in software
+    engineering from Chongqing University in 2011, and the M.S. and Ph.D. degrees in
+    software engineering from the University of Macau in 2013 and 2016, respectively.
+    My works have appeared in prestigious venues such as ACM CCS, USENIX Security,
+    ICML, CVPR, AAAI, ACM MM, IEEE TIFS, IEEE TDSC, IEEE TC, IEEE TPDS, IEEE TIP, and
+    IEEE TSP. I have been recognized as a 'Highly Cited Researcher' from 2022 to 2025
+    and have published more than 150 papers. I am an Associate Editor of IEEE
+    Transactions on Dependable and Secure Computing, IEEE Signal Processing Letters,
+    and the International Journal of Bifurcation and Chaos.
+  zh: >
+    我是哈尔滨工业大学（深圳）计算机科学与技术学院教授。2011 年于重庆大学获软件工程学士学位，
+    2013 年和 2016 年于澳门大学分别获软件工程硕士与博士学位。研究成果发表于 ACM CCS、USENIX
+    Security、ICML、CVPR、AAAI、ACM MM、IEEE TIFS、IEEE TDSC、IEEE TC、IEEE TPDS、IEEE TIP、
+    IEEE TSP 等顶级会议与期刊。连续入选 2022—2025 年“高被引学者”，已发表论文 150 余篇。现任
+    IEEE Transactions on Dependable and Secure Computing、IEEE Signal Processing Letters
+    及 International Journal of Bifurcation and Chaos 副编辑。
+  contact:
+    en: >
+      If you are interested in exploring potential academic collaborations or have
+      inquiries related to my research, please feel free to contact me by email.
+    zh: 如对学术合作或我的研究有兴趣，欢迎通过邮件与我联系。
+
+# Recruiting / prospective-students notice shown as a callout under the bio.
+# Remove this block to hide the section.
+recruiting:
+  title:
+    en: We are hiring
+    zh: 招生招聘
+  body:
+    en: >
+      I am looking for self-motivated Ph.D. students, master's students, and research
+      interns interested in Applied Cryptography and Trustworthy AI. Outstanding
+      candidates with a strong background in cryptography, security, or machine learning
+      are encouraged to email me with your CV, transcripts, and a brief statement of interest.
+    zh: >
+      课题组长期招收对应用密码学、可信人工智能感兴趣、有自驱力的博士生、硕士生与科研实习生。
+      欢迎在密码学、安全或机器学习方面有扎实基础的同学发送简历、成绩单及简要研究兴趣说明至我的邮箱。
+
+# Research interests — drive the research-themes block and publication filters.
+interests:
+  - key: crypto
+    name: { en: Applied Cryptography, zh: 应用密码学 }
+    desc:
+      en: "Information security, data privacy, privacy-preserving machine learning, and secure cloud computing."
+      zh: "信息安全、数据隐私、隐私保护机器学习与安全云计算。"
+  - key: multimedia
+    name: { en: "Multimedia Security & Forensics", zh: 多媒体安全与取证 }
+    desc:
+      en: "Multimedia security, multimedia forensics, and AI security."
+      zh: "多媒体安全、多媒体取证与人工智能安全。"
+  - key: trustworthy-ai
+    name: { en: Trustworthy AI, zh: 可信人工智能 }
+    desc:
+      en: "Robustness, backdoor defense, and the security of modern AI deployment."
+      zh: "模型鲁棒性、后门防御与人工智能部署安全。"
+  - key: nonlinear
+    name: { en: "Nonlinear Systems & Applications", zh: 非线性系统及应用 }
+    desc:
+      en: "Chaotic systems, hardware implementation, and secure communication."
+      zh: "混沌系统、硬件实现与安全通信。"

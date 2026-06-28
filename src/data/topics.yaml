@@ -1,0 +1,23 @@
+# Sub-topic labels (fine-grained category key -> bilingual name), shown on the
+# Research page. Each paper's `category` in publications.bib is one of these keys.
+dedup-audit: { en: "Secure deduplication & integrity auditing", zh: "安全去重与完整性审计" }
+encrypted-query: { en: "Encrypted search & query processing", zh: "密文检索与查询处理" }
+secure-iot: { en: "Secure data collection for IoT & crowdsensing", zh: "物联网与群智感知的安全数据采集" }
+ppml: { en: "Privacy-preserving machine learning", zh: "隐私保护机器学习" }
+rdh: { en: "Reversible data hiding in encrypted images", zh: "加密图像可逆信息隐藏" }
+crypto-other: { en: "Secure indexing & others", zh: "安全索引与其他" }
+
+backdoor: { en: "Backdoor attacks & defenses", zh: "后门攻击与防御" }
+adversarial: { en: "Adversarial robustness & attacks", zh: "对抗鲁棒性与攻击" }
+forensics: { en: "Image forensics & forgery detection", zh: "图像取证与篡改检测" }
+deepfake: { en: "Deepfake & synthetic-media detection", zh: "深度伪造检测" }
+face-privacy: { en: "Visual & face privacy protection", zh: "人脸与视觉隐私保护" }
+watermark: { en: "Watermarking & copyright protection", zh: "数字水印与版权保护" }
+image-encryption: { en: "Image encryption", zh: "图像加密" }
+compressive-sensing: { en: "Compressive sensing", zh: "压缩感知" }
+mvlearning: { en: "Multi-view & representation learning", zh: "多视图与表示学习" }
+media-other: { en: "Blockchain & data integrity", zh: "区块链与数据一致性" }
+
+chaotic-system: { en: "Chaotic system design", zh: "混沌系统设计" }
+memristor-neuron: { en: "Memristor- & neuron-based hyperchaos", zh: "忆阻器与神经元超混沌" }
+secure-comm: { en: "Chaos-based secure communication", zh: "基于混沌的安全通信" }

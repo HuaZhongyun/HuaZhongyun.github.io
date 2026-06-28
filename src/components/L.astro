@@ -1,0 +1,13 @@
+---
+// Localized text: renders both languages; CSS shows the active one.
+interface Props {
+  en: string;
+  zh?: string;
+  as?: keyof HTMLElementTagNameMap;
+  class?: string;
+}
+const { en, zh, as = 'span', class: cls } = Astro.props;
+const Tag = as as any;
+const zhText = zh && zh.length ? zh : en;
+---
+<Tag class={cls} data-l="en">{en}</Tag><Tag class={cls} data-l="zh">{zhText}</Tag>

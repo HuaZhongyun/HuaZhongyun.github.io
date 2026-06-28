@@ -1,0 +1,36 @@
+# Publication display groups — the single source of truth for the Publications page.
+#
+# Each paper in publications.bib carries a FINE-GRAINED `category` key (e.g.
+# dedup-audit, deepfake, chaotic-system). Here you define DISPLAY GROUPS, and each
+# group can aggregate MULTIPLE fine keys via `keys`. Order = display order; a paper
+# shows up in the first group whose `keys` contains its fine key.
+#
+# Currently grouped back into the original three top-level areas. To split a group
+# into finer ones later, just add groups and move fine keys between their `keys`.
+#
+# Fine keys in use:
+#   crypto:    dedup-audit, encrypted-query, secure-iot, ppml, rdh, crypto-other
+#   media/AI:  backdoor, adversarial, forensics, deepfake, face-privacy, watermark,
+#              image-encryption, compressive-sensing, mvlearning, media-other
+#   nonlinear: chaotic-system, memristor-neuron, secure-comm
+
+- key: crypto
+  name: { en: Applied Cryptography, zh: 应用密码学 }
+  desc:
+    en: "Secure and privacy-preserving computation over outsourced data: encrypted search and query processing, secure deduplication and integrity auditing, privacy-preserving machine learning and federated learning, and secure data collection for IoT/edge."
+    zh: "面向外包数据的安全与隐私保护计算：密文检索与查询处理、安全去重与完整性审计、隐私保护机器学习与联邦学习，以及面向物联网/边缘的安全数据采集。"
+  keys: [dedup-audit, encrypted-query, secure-iot, ppml, rdh, crypto-other]
+
+- key: multimedia
+  name: { en: "Multimedia Security, Forensics & AI Security", zh: 多媒体安全、取证与 AI 安全 }
+  desc:
+    en: "Protecting multimedia content and AI systems: deepfake and forgery detection, image forensics, robust and backdoor-resistant models, image encryption, and copyright/watermarking."
+    zh: "保护多媒体内容与 AI 系统：深度伪造与篡改检测、图像取证、鲁棒与抗后门模型、图像加密，以及版权保护与数字水印。"
+  keys: [backdoor, adversarial, forensics, deepfake, face-privacy, watermark, image-encryption, compressive-sensing, mvlearning, media-other]
+
+- key: nonlinear
+  name: { en: Nonlinear Systems & Applications, zh: 非线性系统及应用 }
+  desc:
+    en: "Design and analysis of chaotic systems: high-dimensional chaotic maps, memristor- and neuron-based hyperchaos, hardware (FPGA) implementations, and chaos-based secure communication."
+    zh: "混沌系统的设计与分析：高维混沌映射、基于忆阻器与神经元的超混沌、硬件（FPGA）实现，以及基于混沌的安全通信。"
+  keys: [chaotic-system, memristor-neuron, secure-comm]

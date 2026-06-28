@@ -1,0 +1,104 @@
+---
+// Rotating 3D keyword sphere (globe-like). Decorative; auto-rotates and reacts
+// to pointer movement. Keywords are summarized research focuses.
+const tags = [
+  { en: 'Applied Cryptography', zh: '应用密码学', s: 3 },
+  { en: 'Trustworthy AI', zh: '可信人工智能', s: 3 },
+  { en: 'Multimedia Security', zh: '多媒体安全', s: 3 },
+  { en: 'Privacy-Preserving ML', zh: '隐私保护机器学习', s: 2 },
+  { en: 'Deepfake Detection', zh: '深度伪造检测', s: 2 },
+  { en: 'Backdoor Defense', zh: '后门防御', s: 2 },
+  { en: 'Adversarial Robustness', zh: '对抗鲁棒性', s: 2 },
+  { en: 'Federated Learning', zh: '联邦学习', s: 2 },
+  { en: 'Secure Deduplication', zh: '安全去重', s: 2 },
+  { en: 'Image Forensics', zh: '图像取证', s: 2 },
+  { en: 'Chaotic Systems', zh: '混沌系统', s: 2 },
+  { en: 'Secure Computation', zh: '安全多方计算', s: 2 },
+  { en: 'Encrypted Search', zh: '密文检索', s: 1 },
+  { en: 'Reversible Data Hiding', zh: '可逆信息隐藏', s: 1 },
+  { en: 'Image Encryption', zh: '图像加密', s: 1 },
+  { en: 'Watermarking', zh: '数字水印', s: 1 },
+  { en: 'Secure Communication', zh: '安全通信', s: 1 },
+  { en: 'Differential Privacy', zh: '差分隐私', s: 1 },
+  { en: 'Memristor', zh: '忆阻器', s: 1 },
+  { en: 'Compressive Sensing', zh: '压缩感知', s: 1 },
+  { en: 'Cloud Security', zh: '云安全', s: 1 },
+  { en: 'AI Safety', zh: 'AI 安全', s: 1 },
+  { en: 'Authentication', zh: '身份认证', s: 1 },
+  { en: 'Data Privacy', zh: '数据隐私', s: 1 },
+  { en: 'Hyperchaos', zh: '超混沌', s: 1 },
+  { en: 'FPGA Design', zh: 'FPGA 设计', s: 1 },
+  { en: 'Information Hiding', zh: '信息隐藏', s: 1 },
+  { en: 'Cloud Storage', zh: '云存储', s: 1 },
+  { en: 'Graph Learning', zh: '图学习', s: 1 },
+  { en: 'Copyright Protection', zh: '版权保护', s: 1 },
+];
+---
+<div class="tagsphere" id="tagsphere" aria-hidden="true">
+  {tags.map((x) => (
+    <span class={`ts-tag ts-s${x.s}`}>
+      <span data-l="en">{x.en}</span><span data-l="zh">{x.zh}</span>
+    </span>
+  ))}
+</div>
+<script is:inline>
+  (function () {
+    var root = document.getElementById('tagsphere');
+    if (!root) return;
+    var items = Array.prototype.slice.call(root.querySelectorAll('.ts-tag'));
+    var N = items.length;
+    if (!N) return;
+    var R = Math.max(80, root.offsetWidth / 2 - 26);
+    var pts = [];
+    for (var i = 0; i < N; i++) {
+      var phi = Math.acos(-1 + (2 * i + 1) / N);
+      var theta = Math.sqrt(N * Math.PI) * phi;
+      pts.push({
+        x: R * Math.cos(theta) * Math.sin(phi),
+        y: R * Math.sin(theta) * Math.sin(phi),
+        z: R * Math.cos(phi),
+      });
+    }
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var ax = reduce ? 0 : -0.0011, ay = reduce ? 0 : 0.0018; // angular velocity
+    function rotX(p, a) { var c = Math.cos(a), s = Math.sin(a), y = p.y * c - p.z * s, z = p.y * s + p.z * c; p.y = y; p.z = z; }
+    function rotY(p, a) { var c = Math.cos(a), s = Math.sin(a), x = p.x * c + p.z * s, z = -p.x * s + p.z * c; p.x = x; p.z = z; }
+    function render() {
+      for (var i = 0; i < N; i++) { rotX(pts[i], ax); rotY(pts[i], ay); }
+      for (var i = 0; i < N; i++) {
+        var p = pts[i], el = items[i];
+        // Orthographic projection -> tags sit on the true circle (round silhouette).
+        var depth = (p.z + R) / (2 * R);            // 0 (back) .. 1 (front)
+        var fsc = 0.62 + 0.85 * depth;              // depth conveyed by size + opacity
+        el.style.transform = 'translate(-50%,-50%) translate3d(' +
+          p.x.toFixed(1) + 'px,' + p.y.toFixed(1) + 'px,0) scale(' + fsc.toFixed(2) + ')';
+        el.style.opacity = (0.4 + 0.6 * depth).toFixed(2);
+        el.style.zIndex = String(Math.round(depth * 100));
+      }
+    }
+    var rafId = null, visible = true;
+    function loop() { render(); rafId = requestAnimationFrame(loop); }
+    function start() { if (rafId == null && !reduce && visible) loop(); }
+    function stop() { if (rafId != null) { cancelAnimationFrame(rafId); rafId = null; } }
+
+    root.addEventListener('pointermove', function (e) {
+      var r = root.getBoundingClientRect();
+      ay = ((e.clientX - (r.left + r.width / 2)) / r.width) * 0.07;
+      ax = -((e.clientY - (r.top + r.height / 2)) / r.height) * 0.07;
+      if (reduce) render(); // allow manual spin even with reduced motion
+    });
+    root.addEventListener('pointerleave', function () { ax = reduce ? 0 : -0.0011; ay = reduce ? 0 : 0.0018; });
+
+    render(); // initial frame
+    if (!reduce) {
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (es) {
+          visible = es[0].isIntersecting;
+          if (visible) start(); else stop();
+        }).observe(root);
+      } else {
+        start();
+      }
+    }
+  })();
+</script>

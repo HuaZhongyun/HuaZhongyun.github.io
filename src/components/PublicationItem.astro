@@ -1,0 +1,20 @@
+---
+import { authorsHTML, pubDetail, toBibtex, type Publication } from '../lib/bibtex';
+interface Props { pub: Publication; cat?: string }
+const { pub, cat } = Astro.props;
+const detail = pubDetail(pub);
+const bibtex = toBibtex(pub);
+---
+<li class="pub" data-cat={cat ?? pub.category}>
+  <div class="pub-body">
+    <div class="title">{pub.title}</div>
+    <div class="authors" set:html={authorsHTML(pub)} />
+    <span class="venue">{pub.venue}</span>{detail && <span class="detail">, {detail}</span>}
+    <div class="pub-links">
+      {pub.award && <span class="award">🏆 {pub.award}</span>}
+      {pub.doi && <a href={pub.doi} target="_blank" rel="noopener noreferrer" aria-label="DOI (opens in new tab)">DOI</a>}
+      {pub.code && <a href={pub.code} target="_blank" rel="noopener noreferrer" aria-label="Code (opens in new tab)">Code</a>}
+      <button type="button" class="bibtex-btn" data-bibtex={bibtex} aria-haspopup="dialog" aria-label="Show BibTeX">BibTeX</button>
+    </div>
+  </div>
+</li>

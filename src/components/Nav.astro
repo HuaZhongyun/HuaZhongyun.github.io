@@ -1,0 +1,60 @@
+---
+import { t } from '../i18n/ui';
+import { pair, getProfile } from '../lib/content';
+const profile = getProfile();
+const name = pair(profile.name);
+const title = pair(profile.title);
+const affil = pair(profile.university ?? profile.affiliation);
+const links: { href: string; key: Parameters<typeof t>[0] }[] = [
+  { href: '/', key: 'nav.home' },
+  { href: '/research/', key: 'nav.research' },
+  { href: '/service/', key: 'nav.service' },
+  { href: '/honors/', key: 'nav.honors' },
+];
+const here = Astro.url.pathname.replace(/\/+$/, '') || '/';
+---
+<header class="site-header">
+  <div class="container">
+    <a class="site-name" href="/">
+      <span data-l="en">{name.en}</span><span data-l="zh">{name.zh}</span>
+    </a>
+    <p class="site-sub">
+      <span data-l="en">{title.en} · {affil.en}</span><span data-l="zh">{title.zh} · {affil.zh}</span>
+    </p>
+    <nav class="nav-links" aria-label="Primary">
+      {links.map((l) => {
+        const target = l.href.replace(/\/+$/, '') || '/';
+        const active = target === here;
+        return (
+          <a href={l.href} class={active ? 'active' : ''} aria-current={active ? 'page' : undefined}>
+            <span data-l="en">{t(l.key, 'en')}</span><span data-l="zh">{t(l.key, 'zh')}</span>
+          </a>
+        );
+      })}
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language" aria-pressed="false">
+        <svg class="lang-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+          <circle cx="12" cy="12" r="9" /><path d="M3 12h18" />
+          <path d="M12 3c2.6 2.7 2.6 15.3 0 18M12 3c-2.6 2.7-2.6 15.3 0 18" />
+        </svg>
+        <span data-l="en">中文</span><span data-l="zh">EN</span>
+      </button>
+    </nav>
+  </div>
+</header>
+<script is:inline>
+  (function () {
+    var toggle = document.getElementById('langToggle');
+    function syncLang(lang) {
+      document.documentElement.setAttribute('data-lang', lang);
+      document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh' : 'en');
+      if (toggle) toggle.setAttribute('aria-pressed', lang === 'zh' ? 'true' : 'false');
+    }
+    syncLang(document.documentElement.getAttribute('data-lang') === 'zh' ? 'zh' : 'en');
+    if (toggle) toggle.addEventListener('click', function () {
+      var cur = document.documentElement.getAttribute('data-lang') === 'zh' ? 'zh' : 'en';
+      var next = cur === 'zh' ? 'en' : 'zh';
+      syncLang(next);
+      try { localStorage.setItem('lang', next); } catch (e) {}
+    });
+  })();
+</script>

@@ -1,0 +1,57 @@
+---
+import { getNews, formatNewsDate, type NewsItem } from '../lib/content';
+interface Props { limit?: number }
+const { limit } = Astro.props;
+const all: NewsItem[] = getNews();
+const visible = limit ? all.slice(0, limit) : all;
+const rest = limit ? all.slice(limit) : [];
+---
+<ul class="news">
+  {visible.map((n) => (
+    <li class={n.highlight ? 'hl' : ''}>
+      <span class="date">{formatNewsDate(n.date)}</span>
+      <span class="what">
+        <span data-l="en">{n.en}{n.link && <> <a href={n.link} target="_blank" rel="noopener noreferrer">→</a></>}</span>
+        <span data-l="zh">{n.zh || n.en}{n.link && <> <a href={n.link} target="_blank" rel="noopener noreferrer">→</a></>}</span>
+      </span>
+    </li>
+  ))}
+</ul>
+
+{rest.length > 0 && (
+  <>
+    <div class="news-extra">
+      <ul class="news">
+        {rest.map((n) => (
+          <li class={n.highlight ? 'hl' : ''}>
+            <span class="date">{formatNewsDate(n.date)}</span>
+            <span class="what">
+              <span data-l="en">{n.en}{n.link && <> <a href={n.link} target="_blank" rel="noopener noreferrer">→</a></>}</span>
+              <span data-l="zh">{n.zh || n.en}{n.link && <> <a href={n.link} target="_blank" rel="noopener noreferrer">→</a></>}</span>
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+    <button class="news-toggle" type="button" aria-expanded="false">
+      <span class="lbl-more"><span data-l="en">More news ▾</span><span data-l="zh">更多新闻 ▾</span></span>
+      <span class="lbl-less"><span data-l="en">Show less ▴</span><span data-l="zh">收起 ▴</span></span>
+    </button>
+    <script is:inline>
+      (function () {
+        // works for any number of NewsList instances on a page
+        Array.prototype.forEach.call(document.querySelectorAll('.news-toggle'), function (btn) {
+          if (btn.dataset.newsBound) return; // avoid double-binding across instances
+          btn.dataset.newsBound = 'true';
+          var box = btn.previousElementSibling; // the .news-extra right before the button
+          if (!box || !box.classList.contains('news-extra')) return;
+          btn.addEventListener('click', function () {
+            var open = box.classList.toggle('open');
+            btn.classList.toggle('open', open);
+            btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          });
+        });
+      })();
+    </script>
+  </>
+)}

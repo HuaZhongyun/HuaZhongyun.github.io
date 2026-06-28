@@ -1,0 +1,72 @@
+---
+import PublicationItem from './PublicationItem.astro';
+import { getPublications, getCategories, getGroupMap, groupOf } from '../lib/bibtex';
+import { getPubCategories, pair } from '../lib/content';
+import { t } from '../i18n/ui';
+
+const pubs = getPublications();
+const cats = getCategories();
+const gmap = getGroupMap();
+// Bilingual labels come from src/data/categories.yaml (single source of truth).
+const nameMap = new Map(getPubCategories().map((c) => [c.key, pair(c.name)]));
+const label = (key: string) => nameMap.get(key) ?? { en: key, zh: key };
+// Group papers by display group (categories.yaml), in that file's order.
+const byCat = cats.map((c) => ({
+  key: c.key,
+  items: pubs.filter((p) => groupOf(p, gmap) === c.key),
+}));
+---
+<div class="filters" role="group" aria-label="Filter publications by topic">
+  <button class="chip active" type="button" data-cat="all" aria-pressed="true">
+    <span data-l="en">{t('pub.all', 'en')}</span><span data-l="zh">{t('pub.all', 'zh')}</span>
+  </button>
+  {cats.map((c) => (
+    <button class="chip" type="button" data-cat={c.key} aria-pressed="false">
+      <span data-l="en">{label(c.key).en}</span><span data-l="zh">{label(c.key).zh}</span>
+    </button>
+  ))}
+</div>
+{byCat.map((g) => (
+  <div class="pub-cat" data-group={g.key}>
+    <h3>
+      <span data-l="en">{label(g.key).en}</span><span data-l="zh">{label(g.key).zh}</span>
+    </h3>
+    <ol class="pub-list">
+      {g.items.map((p) => <PublicationItem pub={p} cat={g.key} />)}
+    </ol>
+  </div>
+))}
+
+<p class="empty" style="text-align:right;font-size:.82rem">
+  <span data-l="en">{t('pub.corresponding', 'en')}</span><span data-l="zh">{t('pub.corresponding', 'zh')}</span>
+</p>
+
+<script is:inline>
+  (function () {
+    var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.pub-cat'));
+    var pubs = Array.prototype.slice.call(document.querySelectorAll('.pub'));
+    var activeCat = 'all';
+
+    function apply() {
+      pubs.forEach(function (el) {
+        el.hidden = !(activeCat === 'all' || el.dataset.cat === activeCat);
+      });
+      groups.forEach(function (g) {
+        g.hidden = g.querySelectorAll('.pub:not([hidden])').length === 0;
+      });
+    }
+
+    chips.forEach(function (c) {
+      c.addEventListener('click', function () {
+        chips.forEach(function (x) { x.classList.remove('active'); x.setAttribute('aria-pressed', 'false'); });
+        c.classList.add('active');
+        c.setAttribute('aria-pressed', 'true');
+        activeCat = c.dataset.cat;
+        apply();
+      });
+    });
+
+    apply();
+  })();
+</script>

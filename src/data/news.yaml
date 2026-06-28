@@ -1,0 +1,96 @@
+# News feed (most recent first). date: YYYY-MM. Add a line at the top for new items.
+# highlight: true  -> emphasized on the homepage.
+- date: 2026-06
+  en: "A paper is accepted by IEEE TC; a paper by IEEE TSC; two papers by ECCV; a paper by IEEE TDSC."
+  zh: "一篇论文被 IEEE TC 录用；一篇被 IEEE TSC 录用；两篇被 ECCV 录用；一篇被 IEEE TDSC 录用。"
+- date: 2026-05
+  en: "Two papers are accepted by ICML; a paper by IEEE TDSC."
+  zh: "两篇论文被 ICML 录用；一篇被 IEEE TDSC 录用。"
+- date: 2026-03
+  en: "A paper is accepted by IEEE TSC."
+  zh: "一篇论文被 IEEE TSC 录用。"
+- date: 2026-02
+  en: "A paper is accepted by IEEE TDSC; a paper by IEEE TIE."
+  zh: "一篇论文被 IEEE TDSC 录用；一篇被 IEEE TIE 录用。"
+- date: 2026-01
+  en: "A paper is accepted by IEEE TIP; a paper by IEEE TDSC; a paper by ICLR 2026."
+  zh: "一篇论文被 IEEE TIP 录用；一篇被 IEEE TDSC 录用；一篇被 ICLR 2026 录用。"
+- date: 2025-12
+  en: "Two papers are accepted by IEEE TDSC."
+  zh: "两篇论文被 IEEE TDSC 录用。"
+- date: 2025-11
+  highlight: true
+  en: "A paper is accepted by IEEE TII; a paper by AAAI 2026; I am recognized as a 'Highly Cited Researcher 2025'."
+  zh: "一篇论文被 IEEE TII 录用；一篇被 AAAI 2026 录用；本人入选 2025 年“高被引学者”。"
+- date: 2025-10
+  highlight: true
+  en: "A paper is accepted by ACM TOMM; our paper receives the ACM CCS 2025 Distinguished Paper Award."
+  zh: "一篇论文被 ACM TOMM 录用；我们的论文荣获 ACM CCS 2025 杰出论文奖。"
+- date: 2025-09
+  en: "A paper is accepted by IEEE TDSC."
+  zh: "一篇论文被 IEEE TDSC 录用。"
+- date: 2025-08
+  en: "A paper is accepted by ACM CCS; a paper by IEEE TMC."
+  zh: "一篇论文被 ACM CCS 录用；一篇被 IEEE TMC 录用。"
+- date: 2025-07
+  en: "A paper is accepted by IEEE TDSC."
+  zh: "一篇论文被 IEEE TDSC 录用。"
+- date: 2025-06
+  en: "A paper is accepted by IEEE TIFS."
+  zh: "一篇论文被 IEEE TIFS 录用。"
+- date: 2025-05
+  en: "A paper is accepted by IEEE TC."
+  zh: "一篇论文被 IEEE TC 录用。"
+- date: 2025-04
+  en: "A paper is accepted by IEEE TDSC."
+  zh: "一篇论文被 IEEE TDSC 录用。"
+- date: 2025-03
+  en: "A paper is accepted by IEEE TSC; I am invited to serve as an Associate Editor of IEEE TDSC."
+  zh: "一篇论文被 IEEE TSC 录用；受邀担任 IEEE TDSC 副编辑。"
+- date: 2025-02
+  en: "A paper is accepted by IEEE TIFS; a paper by IEEE TDSC; a paper by IEEE TMM."
+  zh: "一篇论文被 IEEE TIFS 录用；一篇被 IEEE TDSC 录用；一篇被 IEEE TMM 录用。"
+- date: 2025-01
+  en: "A paper is accepted by IEEE TIP; two papers by USENIX Security 2025."
+  zh: "一篇论文被 IEEE TIP 录用；两篇被 USENIX Security 2025 录用。"
+- date: 2024-12
+  en: "Two papers are accepted by AAAI 2025; a paper by IEEE TIFS."
+  zh: "两篇论文被 AAAI 2025 录用；一篇被 IEEE TIFS 录用。"
+- date: 2024-11
+  highlight: true
+  en: "I am recognized as a 'Highly Cited Researcher 2024'; a paper is accepted by IEEE TSC."
+  zh: "本人入选 2024 年“高被引学者”；一篇论文被 IEEE TSC 录用。"
+- date: 2024-10
+  en: "A paper is nominated for the Best Paper Award at ACM MM 2024."
+  zh: "一篇论文获 ACM MM 2024 最佳论文奖提名。"
+- date: 2024-09
+  en: "A paper is accepted by IEEE TCAS-I; a paper by IEEE TCSVT; a paper by ACM TOMM."
+  zh: "一篇论文被 IEEE TCAS-I 录用；一篇被 IEEE TCSVT 录用；一篇被 ACM TOMM 录用。"
+- date: 2024-08
+  en: "A paper is accepted by ACM CCS; a paper by IEEE TSC; two papers by IEEE TIE; a paper by IEEE TBIOM."
+  zh: "一篇论文被 ACM CCS 录用；一篇被 IEEE TSC 录用；两篇被 IEEE TIE 录用；一篇被 IEEE TBIOM 录用。"
+- date: 2024-07
+  en: "A paper is accepted by IEEE TCAS-I; two papers by IEEE TII; two papers by ACM MM."
+  zh: "一篇论文被 IEEE TCAS-I 录用；两篇被 IEEE TII 录用；两篇被 ACM MM 录用。"
+- date: 2024-06
+  en: "A paper is accepted by IEEE TCSVT; a paper by ACM TOMM."
+  zh: "一篇论文被 IEEE TCSVT 录用；一篇被 ACM TOMM 录用。"
+- date: 2024-05
+  en: "A paper is accepted by ICML 2024; a paper by IEEE TIFS."
+  zh: "一篇论文被 ICML 2024 录用；一篇被 IEEE TIFS 录用。"
+- date: 2024-03
+  en: "A paper is accepted by IEEE TCAS-I; a paper by IEEE TCSS; a paper by IEEE TIFS."
+  zh: "一篇论文被 IEEE TCAS-I 录用；一篇被 IEEE TCSS 录用；一篇被 IEEE TIFS 录用。"
+- date: 2024-02
+  en: "A paper is accepted by CSF; a paper by CVPR 2024."
+  zh: "一篇论文被 CSF 录用；一篇被 CVPR 2024 录用。"
+- date: 2024-01
+  en: "A paper is accepted by IEEE TIFS."
+  zh: "一篇论文被 IEEE TIFS 录用。"
+- date: 2023-12
+  en: "A paper is accepted by AAAI 2024; a paper by ACM TOMM; a paper by IEEE TSC."
+  zh: "一篇论文被 AAAI 2024 录用；一篇被 ACM TOMM 录用；一篇被 IEEE TSC 录用。"
+- date: 2023-11
+  highlight: true
+  en: "I am recognized as a 'Highly Cited Researcher 2023'. Papers are accepted by IEEE TC, IEEE TSC, and IEEE TDSC."
+  zh: "本人入选 2023 年“高被引学者”；论文被 IEEE TC、IEEE TSC、IEEE TDSC 录用。"

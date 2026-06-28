@@ -1,0 +1,56 @@
+# Academic service. Grouped by `editorial`, `chair`, `member`, `pc`, `review`.
+editorial:
+  - period: "2025 – Now"
+    role: { en: "Associate Editor", zh: "副编辑" }
+    venue: "IEEE Transactions on Dependable and Secure Computing"
+  - period: "2024 – Now"
+    role: { en: "Associate Editor", zh: "副编辑" }
+    venue: "IEEE Signal Processing Letters"
+  - period: "2022 – Now"
+    role: { en: "Associate Editor", zh: "副编辑" }
+    venue: "International Journal of Bifurcation and Chaos"
+  - period: "2020 – Now"
+    role: { en: "Editorial Board", zh: "编委" }
+    venue: { en: "China Computer Science Review (Chinese journal)", zh: "中国计算机学会推荐中文期刊评审" }
+  - period: "2022"
+    role: { en: "Special Issue Editor", zh: "专刊编辑" }
+    venue: "\"Mathematical Methods for Computer Science\", Mathematics (JCR Q1)"
+  - period: "2021"
+    role: { en: "Special Issue Editor", zh: "专刊编辑" }
+    venue: "\"Cyber Security and AI\", Sensors"
+
+chair:
+  - period: "2020"
+    role: { en: "Section Chair", zh: "分会主席" }
+    venue: "International Conference on Security and Privacy in Digital Economy 2020"
+  - period: "2018"
+    role: { en: "Special Section Chair", zh: "专题分会主席" }
+    venue: "IEEE International Conference on Systems, Man and Cybernetics (SMC) 2018"
+
+membership:
+  - period: "2023 – Now"
+    role: { en: "IEEE Senior Member", zh: "IEEE 高级会员" }
+
+pc:
+  - "The 37th AAAI Conference on Artificial Intelligence (AAAI 2024)"
+  - "The 31st International Conference on Neural Information Processing (ICONIP 2024)"
+  - "The 20th International Conference on Mobility, Sensing and Networking (MSN 2024)"
+  - "IEEE International Conference on Multimedia and Expo (ICME 2024)"
+  - "IEEE International Conference on Multimedia and Expo (ICME 2023)"
+  - "IEEE International Conference on Multimedia and Expo (ICME 2022)"
+
+review:
+  - "IEEE Transactions on Information Forensics and Security"
+  - "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+  - "IEEE Transactions on Dependable and Secure Computing"
+  - "IEEE Transactions on Image Processing"
+  - "IEEE Transactions on Signal Processing"
+  - "IEEE Transactions on Knowledge and Data Engineering"
+  - "IEEE Transactions on Cybernetics"
+  - "IEEE Transactions on Systems, Man and Cybernetics: Systems"
+  - "IEEE Transactions on Circuits and Systems for Video Technology"
+  - "IEEE Transactions on Industrial Informatics"
+  - "IEEE Transactions on Industrial Electronics"
+  - "IEEE Transactions on Circuits and Systems II: Express Briefs"
+  - "IEEE Transactions on Circuits and Systems I: Regular Papers"
+  - "ACM Transactions on Multimedia Computing, Communications, and Applications"

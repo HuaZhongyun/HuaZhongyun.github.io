@@ -1,0 +1,27 @@
+---
+import Base from '../layouts/Base.astro';
+import L from '../components/L.astro';
+import { t } from '../i18n/ui';
+import { pair, getHonors } from '../lib/content';
+const honors = getHonors();
+---
+<Base title="Awards">
+  <section>
+    <h2 class="section-title"><L en={t('section.honors', 'en')} zh={t('section.honors', 'zh')} /></h2>
+    <ul class="award-list">
+      {honors.map((h) => {
+        const title = pair(h.title);
+        const note = h.note ? pair(h.note) : null;
+        return (
+          <li class={h.highlight ? 'hl' : ''}>
+            {h.url
+              ? <a href={h.url} target="_blank" rel="noopener noreferrer"><strong><L en={title.en} zh={title.zh} /></strong></a>
+              : <strong><L en={title.en} zh={title.zh} /></strong>}
+            {note && <span class="award-note"> (<L en={note.en} zh={note.zh} />)</span>}
+            {h.year && <span class="award-year"> — {h.year}</span>}
+          </li>
+        );
+      })}
+    </ul>
+  </section>
+</Base>

@@ -1,0 +1,107 @@
+---
+import '../styles/global.css';
+import Nav from '../components/Nav.astro';
+import { t } from '../i18n/ui';
+import { pair, getProfile } from '../lib/content';
+
+interface Props { title?: string; description?: string }
+const profile = getProfile();
+const name = pair(profile.name);
+const { title, description } = Astro.props;
+const pageTitle = title ? `${title} · ${name.en}` : `${name.en} — Homepage`;
+const desc = description ?? 'Academic homepage of Zhongyun Hua, Professor at Harbin Institute of Technology, Shenzhen.';
+const updated = new Date().toISOString().slice(0, 7);
+---
+<!doctype html>
+<html lang="en" data-lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={desc} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="/images/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />
+    <script is:inline>
+      // restore language before paint to avoid flash (sets both data-lang and lang)
+      (function () {
+        try {
+          var l = localStorage.getItem('lang');
+          if (l === 'zh' || l === 'en') {
+            document.documentElement.setAttribute('data-lang', l);
+            document.documentElement.setAttribute('lang', l);
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <Nav />
+    <main class="container">
+      <slot />
+    </main>
+    <dialog id="bibtex-modal" class="modal" aria-modal="true" aria-labelledby="bibtex-modal-title">
+      <div class="modal-head">
+        <strong id="bibtex-modal-title">BibTeX</strong>
+        <div class="modal-actions">
+          <button id="bibtex-copy" type="button" class="modal-btn">
+            <span data-l="en">Copy</span><span data-l="zh">复制</span>
+          </button>
+          <button id="bibtex-close" type="button" class="modal-btn" aria-label="Close">✕</button>
+        </div>
+      </div>
+      <pre id="bibtex-text"></pre>
+    </dialog>
+    <script is:inline>
+      (function () {
+        var dlg = document.getElementById('bibtex-modal');
+        var pre = document.getElementById('bibtex-text');
+        if (!dlg || !pre) return;
+        var opener = null;
+        document.addEventListener('click', function (e) {
+          var btn = e.target.closest && e.target.closest('.bibtex-btn');
+          if (!btn) return;
+          opener = btn;
+          pre.textContent = btn.getAttribute('data-bibtex') || '';
+          if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
+        });
+        // restore focus to the triggering button when the dialog closes
+        dlg.addEventListener('close', function () { if (opener) opener.focus(); });
+        // Escape closes (covers the no-showModal fallback path too)
+        document.addEventListener('keydown', function (e) {
+          if (e.key !== 'Escape' || !(dlg.open || dlg.hasAttribute('open'))) return;
+          if (dlg.close) dlg.close();
+          else { dlg.removeAttribute('open'); if (opener) opener.focus(); }
+        });
+        var copy = document.getElementById('bibtex-copy');
+        if (copy) copy.addEventListener('click', function () {
+          var done = function () {
+            var en = copy.querySelector('[data-l="en"]'); var zh = copy.querySelector('[data-l="zh"]');
+            if (en) en.textContent = 'Copied'; if (zh) zh.textContent = '已复制';
+            setTimeout(function () { if (en) en.textContent = 'Copy'; if (zh) zh.textContent = '复制'; }, 1500);
+          };
+          if (navigator.clipboard) navigator.clipboard.writeText(pre.textContent).then(done, done);
+        });
+        var close = document.getElementById('bibtex-close');
+        if (close) close.addEventListener('click', function () { if (dlg.close) dlg.close(); dlg.removeAttribute('open'); });
+        // click on backdrop closes
+        dlg.addEventListener('click', function (e) { if (e.target === dlg && dlg.close) dlg.close(); });
+      })();
+    </script>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          © {new Date().getFullYear()} {name.en} ·
+          <span data-l="en">{t('footer.updated', 'en')}</span><span data-l="zh">{t('footer.updated', 'zh')}</span>
+          {' '}{updated}
+        </p>
+        <p>
+          <span data-l="en">{t('footer.built', 'en')}</span><span data-l="zh">{t('footer.built', 'zh')}</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

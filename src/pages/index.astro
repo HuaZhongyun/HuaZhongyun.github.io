@@ -1,0 +1,69 @@
+---
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import NewsList from '../components/NewsList.astro';
+import PublicationItem from '../components/PublicationItem.astro';
+import L from '../components/L.astro';
+import { t } from '../i18n/ui';
+import { pair, getProfile } from '../lib/content';
+import { getSelected } from '../lib/bibtex';
+
+const profile = getProfile();
+const bio = pair({ en: profile.bio.en, zh: profile.bio.zh });
+const contact = pair(profile.bio.contact);
+const selected = getSelected(8);
+---
+<Base>
+  <Hero />
+
+  <section id="about">
+    <h2 class="section-title"><L en={t('section.about', 'en')} zh={t('section.about', 'zh')} /></h2>
+    <p><L en={bio.en} zh={bio.zh} /></p>
+    <p><L en={contact.en} zh={contact.zh} /></p>
+
+    {profile.recruiting && (
+      <div class="callout">
+        <h3 class="callout-title">
+          📣 <L en={pair(profile.recruiting.title).en} zh={pair(profile.recruiting.title).zh} />
+        </h3>
+        <p><L en={pair(profile.recruiting.body).en} zh={pair(profile.recruiting.body).zh} /></p>
+      </div>
+    )}
+  </section>
+
+  <section id="interests">
+    <h2 class="section-title"><L en={t('section.interests', 'en')} zh={t('section.interests', 'zh')} /></h2>
+    <div class="interests">
+      {profile.interests.map((it) => {
+        const name = pair(it.name); const desc = pair(it.desc);
+        return (
+          <div class="interest">
+            <h3><L en={name.en} zh={name.zh} /></h3>
+            <p><L en={desc.en} zh={desc.zh} /></p>
+          </div>
+        );
+      })}
+    </div>
+  </section>
+
+  <section id="news">
+    <h2 class="section-title">
+      <L en={t('section.news', 'en')} zh={t('section.news', 'zh')} />
+    </h2>
+    <NewsList limit={5} />
+  </section>
+
+  <section id="selected">
+    <h2 class="section-title">
+      <L en={t('section.selected', 'en')} zh={t('section.selected', 'zh')} />
+    </h2>
+    <ol class="pub-list">
+      {selected.map((p) => <PublicationItem pub={p} />)}
+    </ol>
+    <div class="btn-row">
+      <a class="btn" href="/publications/">
+        <L en={t('btn.viewAll', 'en')} zh={t('btn.viewAll', 'zh')} />
+      </a>
+    </div>
+  </section>
+</Base>
