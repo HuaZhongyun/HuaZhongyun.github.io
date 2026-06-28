@@ -1,14 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import PublicationList from '../components/PublicationList.astro';
-import L from '../components/L.astro';
-import { t } from '../i18n/ui';
 ---
 <Base title="Publications" description="Publications by Zhongyun Hua.">
   <section>
-    <h2 class="section-title">
-      <L en={t('nav.publications', 'en')} zh={t('nav.publications', 'zh')} />
-    </h2>
     <PublicationList />
   </section>
 </Base>

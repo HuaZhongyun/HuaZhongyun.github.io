@@ -24,14 +24,13 @@ emails:
 scholar_id: Sl0BI_IAAAAJ
 
 # How many recent news items to show before the "More news" toggle.
-news_preview: 5
+news_preview: 10
 
 # Social / academic links. Leave url empty to hide an icon.
 socials:
   - { key: scholar, label: Google Scholar, url: "https://scholar.google.com/citations?user=Sl0BI_IAAAAJ&hl=en" }
   - { key: orcid, label: Web of Science, url: "https://www.webofscience.com/wos/author/record/F-1887-2016" }
   - { key: github, label: GitHub, url: "https://github.com/HuaZhongyun" }
-  - { key: email, label: Email, url: "mailto:huazhongyun@hit.edu.cn" }
 
 bio:
   en: >

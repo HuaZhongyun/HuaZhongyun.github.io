@@ -1,13 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
 import L from '../components/L.astro';
-import { t } from '../i18n/ui';
 import { pair, getHonors } from '../lib/content';
 const honors = getHonors();
 ---
 <Base title="Awards">
   <section>
-    <h2 class="section-title"><L en={t('section.honors', 'en')} zh={t('section.honors', 'zh')} /></h2>
     <ul class="award-list">
       {honors.map((h) => {
         const title = pair(h.title);

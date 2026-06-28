@@ -1,6 +1,5 @@
 ---
 import Base from '../layouts/Base.astro';
-import Hero from '../components/Hero.astro';
 import NewsList from '../components/NewsList.astro';
 import PublicationItem from '../components/PublicationItem.astro';
 import L from '../components/L.astro';
@@ -14,10 +13,7 @@ const contact = pair(profile.bio.contact);
 const selected = getSelected(8);
 ---
 <Base>
-  <Hero />
-
   <section id="about">
-    <h2 class="section-title"><L en={t('section.about', 'en')} zh={t('section.about', 'zh')} /></h2>
     <p><L en={bio.en} zh={bio.zh} /></p>
     <p><L en={contact.en} zh={contact.zh} /></p>
 
@@ -31,9 +27,9 @@ const selected = getSelected(8);
     )}
   </section>
 
-  <section id="news" class="news-feature">
-    <h2 class="section-title">🔥 <L en={t('section.news', 'en')} zh={t('section.news', 'zh')} /></h2>
-    <NewsList limit={profile.news_preview ?? 5} />
+  <section id="news">
+    <h2 class="section-title"><L en={t('section.news', 'en')} zh={t('section.news', 'zh')} /></h2>
+    <NewsList limit={profile.news_preview ?? 10} />
   </section>
 
   <section id="selected">

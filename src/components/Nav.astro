@@ -1,10 +1,11 @@
 ---
+import Icon from './Icon.astro';
 import { t } from '../i18n/ui';
 import { pair, getProfile } from '../lib/content';
 const profile = getProfile();
 const name = pair(profile.name);
 const title = pair(profile.title);
-const affil = pair(profile.university ?? profile.affiliation);
+const org = pair(profile.university ?? profile.affiliation);
 const links: { href: string; key: Parameters<typeof t>[0] }[] = [
   { href: '/', key: 'nav.home' },
   { href: '/research/', key: 'nav.research' },
@@ -14,31 +15,46 @@ const links: { href: string; key: Parameters<typeof t>[0] }[] = [
 const here = Astro.url.pathname.replace(/\/+$/, '') || '/';
 ---
 <header class="site-header">
-  <div class="container">
-    <a class="site-name" href="/">
-      <span data-l="en">{name.en}</span><span data-l="zh">{name.zh}</span>
-    </a>
-    <p class="site-sub">
-      <span data-l="en">{title.en} · {affil.en}</span><span data-l="zh">{title.zh} · {affil.zh}</span>
-    </p>
-    <nav class="nav-links" aria-label="Primary">
-      {links.map((l) => {
-        const target = l.href.replace(/\/+$/, '') || '/';
-        const active = target === here;
-        return (
-          <a href={l.href} class={active ? 'active' : ''} aria-current={active ? 'page' : undefined}>
-            <span data-l="en">{t(l.key, 'en')}</span><span data-l="zh">{t(l.key, 'zh')}</span>
+  <div class="container id-row">
+    <img class="id-photo" src={profile.photo} alt={name.en} width="150" height="150" />
+    <div class="id-col">
+      <a class="id-name" href="/">
+        <span data-l="en">{name.en}</span><span data-l="zh">{name.zh}</span>
+      </a>
+      <p class="id-meta">
+        <span data-l="en">{title.en} · {org.en}</span><span data-l="zh">{title.zh} · {org.zh}</span>
+      </p>
+      <p class="id-email">
+        {profile.emails.map((e, i) => (
+          <>{i > 0 && <span class="sep"> · </span>}<a href={`mailto:${e}`}>{e}</a></>
+        ))}
+      </p>
+      <div class="socials">
+        {profile.socials.filter((s) => s.url).map((s) => (
+          <a href={s.url} title={s.label} target="_blank" rel="noopener noreferrer">
+            <Icon name={s.key} /><span>{s.label}</span>
           </a>
-        );
-      })}
-      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language" aria-pressed="false">
-        <svg class="lang-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
-          <circle cx="12" cy="12" r="9" /><path d="M3 12h18" />
-          <path d="M12 3c2.6 2.7 2.6 15.3 0 18M12 3c-2.6 2.7-2.6 15.3 0 18" />
-        </svg>
-        <span data-l="en">中文</span><span data-l="zh">EN</span>
-      </button>
-    </nav>
+        ))}
+      </div>
+      <nav class="nav-links" aria-label="Primary">
+        {links.map((l) => {
+          const target = l.href.replace(/\/+$/, '') || '/';
+          const active = target === here;
+          return (
+            <a href={l.href} class={active ? 'active' : ''} aria-current={active ? 'page' : undefined}>
+              <span data-l="en">{t(l.key, 'en')}</span><span data-l="zh">{t(l.key, 'zh')}</span>
+            </a>
+          );
+        })}
+        <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language" aria-pressed="false">
+          <svg class="lang-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" /><path d="M3 12h18" />
+            <path d="M12 3c2.6 2.7 2.6 15.3 0 18M12 3c-2.6 2.7-2.6 15.3 0 18" />
+          </svg>
+          <span data-l="en">中文</span><span data-l="zh">EN</span>
+        </button>
+      </nav>
+    </div>
   </div>
 </header>
 <script is:inline>

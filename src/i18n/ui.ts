@@ -8,14 +8,11 @@ export const DEFAULT_LANG: Lang = 'en';
 export const UI = {
   'nav.home': { en: 'About', zh: '关于' },
   'nav.research': { en: 'Research', zh: '研究' },
-  'nav.publications': { en: 'Publications', zh: '论文成果' },
   'nav.honors': { en: 'Awards', zh: '获奖' },
   'nav.service': { en: 'Service', zh: '学术服务' },
 
-  'section.about': { en: 'About', zh: '个人简介' },
   'section.news': { en: 'News', zh: '新闻动态' },
   'section.selected': { en: 'Representative Publications', zh: '代表性论文' },
-  'section.honors': { en: 'Awards & Recognitions', zh: '获奖与荣誉' },
   'section.editorial': { en: 'Editorial Service', zh: '编委服务' },
   'section.chair': { en: 'Conference Organization', zh: '会议组织' },
   'section.membership': { en: 'Membership', zh: '学会会员' },
