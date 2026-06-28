@@ -45,6 +45,31 @@
 **每篇论文的 BibTeX 由结构化字段自动生成**，点击论文上的 “BibTeX” 按钮会弹出小窗口
 （可一键复制），无需手动维护 `bibtexurl`。
 
+完整示例（用上全部可选字段，数值自洽——TIFS 为 CCF-A / JCR Q1 / 中科院 1 区 Top）：
+
+```bibtex
+@article{li2024secure,
+  author = {Ying Li and Your Name and Wei Zhang},
+  authorsraw = {Ying Li, Your Name, and Wei Zhang},
+  title = {Secure and Efficient Encrypted Search over Outsourced Cloud Data},
+  venue = {IEEE Transactions on Information Forensics and Security},
+  year = {2024},
+  volume = {19},
+  number = {3},
+  pages = {2451-2465},
+  category = {encrypted-query},
+  corresponding = {yes},
+  status = {accepted},
+  selected = {yes},
+  doi = {https://doi.org/10.1109/TIFS.2024.1234567},
+  github = {https://github.com/your-id/secure-search},
+  ccf = {A},
+  jcr = {Q1},
+  cas = {1},
+  castop = {yes}
+}
+```
+
 ### 管理论文分组
 每篇论文带一个**细粒度** `category` key（如 `dedup-audit`、`deepfake`、
 `chaotic-system`）。论文页的**展示分组**在 `src/data/categories.yaml` 中定义，每个

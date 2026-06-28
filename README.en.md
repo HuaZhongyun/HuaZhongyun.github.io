@@ -47,6 +47,31 @@ papers if fewer than 8 are flagged). **A BibTeX entry is
 generated automatically for every paper** from its fields — clicking the "BibTeX"
 button opens a popup with a copy button, so there's no need to maintain `bibtexurl`.
 
+Full example (every optional field used; values are self-consistent — TIFS is CCF-A / JCR Q1 / CAS tier-1 Top):
+
+```bibtex
+@article{li2024secure,
+  author = {Ying Li and Your Name and Wei Zhang},
+  authorsraw = {Ying Li, Your Name, and Wei Zhang},
+  title = {Secure and Efficient Encrypted Search over Outsourced Cloud Data},
+  venue = {IEEE Transactions on Information Forensics and Security},
+  year = {2024},
+  volume = {19},
+  number = {3},
+  pages = {2451-2465},
+  category = {encrypted-query},
+  corresponding = {yes},
+  status = {accepted},
+  selected = {yes},
+  doi = {https://doi.org/10.1109/TIFS.2024.1234567},
+  github = {https://github.com/your-id/secure-search},
+  ccf = {A},
+  jcr = {Q1},
+  cas = {1},
+  castop = {yes}
+}
+```
+
 ### Manage publication groups
 Each paper carries a **fine-grained** `category` key (e.g. `dedup-audit`,
 `deepfake`, `chaotic-system`). The **display groups** on the Publications page are
