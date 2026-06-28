@@ -48,12 +48,27 @@ html[data-lang="en"] [data-l="zh"] { display: none !important; }
 html[data-lang="zh"] [data-l="en"] { display: none !important; }
 
 /* ---- identity header: big photo + info & nav in the right column ---- */
-.site-header { background: #fff; border-bottom: 1px solid var(--line); }
-.id-row { display: flex; gap: 30px; align-items: flex-start; padding: 28px 20px 20px; }
+.site-header {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: saturate(180%) blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.id-row { display: flex; gap: 30px; align-items: flex-start; padding: 28px 20px 20px; transition: padding 0.2s ease; }
 .id-photo {
   width: 180px; height: 180px; border-radius: 12px; object-fit: cover;
-  flex-shrink: 0; border: 1px solid var(--line);
+  flex-shrink: 0; border: 1px solid var(--line); transition: width 0.2s ease, height 0.2s ease;
 }
+
+/* compact bar when scrolled: small photo + name + nav only */
+.site-header.is-scrolled .id-row { padding: 8px 20px; align-items: center; }
+.site-header.is-scrolled .id-photo { width: 46px; height: 46px; }
+.site-header.is-scrolled .id-meta,
+.site-header.is-scrolled .id-email,
+.site-header.is-scrolled .socials { display: none; }
+.site-header.is-scrolled .id-col { display: flex; align-items: center; gap: 18px; }
+.site-header.is-scrolled .id-name { font-size: 1.15rem; }
+.site-header.is-scrolled .nav-links { margin-top: 0; padding-top: 0; border-top: none; flex: 1; }
 .id-col { flex: 1; min-width: 0; }
 .id-name { font-size: 1.85rem; font-weight: 700; color: var(--fg); display: inline-block; }
 .id-name:hover { text-decoration: none; }

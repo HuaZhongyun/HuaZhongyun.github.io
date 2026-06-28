@@ -72,5 +72,11 @@ const here = Astro.url.pathname.replace(/\/+$/, '') || '/';
       syncLang(next);
       try { localStorage.setItem('lang', next); } catch (e) {}
     });
+
+    // shrink the header into a compact bar once the page is scrolled
+    var header = document.querySelector('.site-header');
+    function onScroll() { if (header) header.classList.toggle('is-scrolled', window.scrollY > 60); }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
   })();
 </script>
