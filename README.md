@@ -1,4 +1,4 @@
-# 花忠云 — 学术主页
+# 个人学术主页（模板）
 
 > 🌐 **中文** · [English](./README.en.md)
 
@@ -22,13 +22,13 @@
 
 ```bibtex
 @article{key2026short,
-  author = {First Author and Zhongyun Hua and ...},
-  authorsraw = {First Author, Zhongyun Hua, ...},   % 展示用的精确作者顺序
+  author = {First Author and Your Name and ...},
+  authorsraw = {First Author, Your Name, ...},   % 展示用的精确作者顺序
   title = {Paper Title},
   venue = {IEEE Transactions on ...},               % 以斜体显示
   year = {2026},
   category = {dedup-audit},     % 细粒度方向 key；在 categories.yaml 中聚合成分组
-  corresponding = {yes},        % 可选：标记花忠云为通讯作者（*）
+  corresponding = {yes},        % 可选：标记本人为通讯作者（*）
   status = {accepted},          % 可选：accepted | in press
   selected = {yes},             % 可选：在首页“代表性论文”中展示
   doi = {https://doi.org/...},      % 可选：DOI 或论文页 URL

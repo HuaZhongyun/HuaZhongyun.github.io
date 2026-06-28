@@ -1,4 +1,4 @@
-# Zhongyun Hua — Academic Homepage
+# Academic Homepage (template)
 
 > 🌐 **English** · [中文](./README.md)
 
@@ -23,13 +23,13 @@ Append one entry to `src/data/publications.bib`:
 
 ```bibtex
 @article{key2026short,
-  author = {First Author and Zhongyun Hua and ...},
-  authorsraw = {First Author, Zhongyun Hua, ...},   % exact display order
+  author = {First Author and Your Name and ...},
+  authorsraw = {First Author, Your Name, ...},   % exact display order
   title = {Paper Title},
   venue = {IEEE Transactions on ...},               % shown in italics
   year = {2026},
   category = {dedup-audit},     % fine topic key; grouped via categories.yaml
-  corresponding = {yes},        % optional: marks Hua as corresponding (*)
+  corresponding = {yes},        % optional: marks the owner as corresponding (*)
   status = {accepted},          % optional: accepted | in press
   selected = {yes},             % optional: feature on the homepage
   doi = {https://doi.org/...},      % optional: DOI or paper-page URL
