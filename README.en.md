@@ -32,15 +32,18 @@ Append one entry to `src/data/publications.bib`:
   corresponding = {yes},        % optional: marks Hua as corresponding (*)
   status = {accepted},          % optional: accepted | in press
   selected = {yes},             % optional: feature on the homepage
-  doi = {https://doi.org/...},      % optional
+  doi = {https://doi.org/...},      % optional: DOI or paper-page URL
   github = {https://github.com/...}, % optional: code repo link (GitHub button)
-  pdf = {/pdf/your-paper.pdf}
+  ccf = {A},                    % optional: CCF rank A/B/C
+  jcr = {Q1},                   % optional: JCR quartile Q1–Q4
+  cas = {2},                    % optional: CAS (中科院) tier 1–4
+  castop = {yes}                % optional: CAS Top journal
 }
 ```
 
 The author's own name is automatically bolded; `selected = yes` papers appear in
 the homepage "Selected Publications" block (it back-fills with the most recent
-papers if fewer than 8 are flagged). PDFs go in `public/pdf/`. **A BibTeX entry is
+papers if fewer than 8 are flagged). **A BibTeX entry is
 generated automatically for every paper** from its fields — clicking the "BibTeX"
 button opens a popup with a copy button, so there's no need to maintain `bibtexurl`.
 
@@ -103,7 +106,7 @@ src/
   components/  Hero, Nav, PublicationList/Item, NewsList, TagSphere, L, ...
   layouts/     Base.astro
   pages/       index, research, publications, honors, service
-public/        images, pdf/, favicons (served as-is)
+public/        images, favicons (served as-is)
 ```
 
 Bilingual (中/英) is handled by rendering both languages and toggling visibility

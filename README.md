@@ -31,14 +31,17 @@
   corresponding = {yes},        % 可选：标记花忠云为通讯作者（*）
   status = {accepted},          % 可选：accepted | in press
   selected = {yes},             % 可选：在首页“代表性论文”中展示
-  doi = {https://doi.org/...},     % 可选
+  doi = {https://doi.org/...},      % 可选：DOI 或论文页 URL
   github = {https://github.com/...}, % 可选：代码仓库链接（GitHub 按钮）
-  pdf = {/pdf/your-paper.pdf}
+  ccf = {A},                    % 可选：CCF 分区 A/B/C
+  jcr = {Q1},                   % 可选：JCR 分区 Q1–Q4
+  cas = {2},                    % 可选：中科院大类分区 1–4
+  castop = {yes}                % 可选：中科院 Top 期刊
 }
 ```
 
 本人的名字会自动加粗；标记了 `selected = yes` 的论文会出现在首页“代表性论文”
-区块（若标记数量不足 8 篇，会自动用最新论文补足）。PDF 放在 `public/pdf/` 目录。
+区块（若标记数量不足 8 篇，会自动用最新论文补足）。
 **每篇论文的 BibTeX 由结构化字段自动生成**，点击论文上的 “BibTeX” 按钮会弹出小窗口
 （可一键复制），无需手动维护 `bibtexurl`。
 
@@ -96,7 +99,7 @@ src/
   components/  Hero、Nav、PublicationList/Item、NewsList、TagSphere、L 等
   layouts/     Base.astro
   pages/       index、research、publications、honors、service
-public/        images、pdf/、favicon（按原样提供）
+public/        images、favicon（按原样提供）
 ```
 
 中/英双语通过同时渲染两种语言、用 CSS 切换可见性实现；语言选择记忆在 `localStorage`。

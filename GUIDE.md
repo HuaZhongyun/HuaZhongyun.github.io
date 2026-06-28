@@ -118,7 +118,8 @@ npm run check          # TypeScript 类型检查
   子方向；再由 `categories.yaml` 把子方向聚合成大方向。见 [3.3](#33-categoriesyaml--研究大方向) / [3.4](#34-topicsyaml--子方向名称)。
 - 点击论文上的「**BibTeX**」会弹出窗口（内容由这些字段**自动生成**），无需手动维护。
 - `ccf/jcr/cas` 等分区怎么批量获得，见 [第 7 节](#7-论文分区ccf--中科院--jcr)。
-- 论文 PDF **不在网站上展示**（设计如此）；如需展示需改 `PublicationItem.astro`。
+- 论文 PDF / 代码压缩包**不放进本仓库**（避免臃肿，也不在站点展示）；要给代码就用上面的
+  `github` 字段链到仓库。
 
 ### 3.3 `categories.yaml` — 研究大方向
 
