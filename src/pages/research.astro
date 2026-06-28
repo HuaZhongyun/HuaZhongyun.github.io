@@ -18,7 +18,7 @@ function tagText(p: Publication): string {
   return yy ? `${ab}'${yy}` : ab;
 }
 function paperUrl(p: Publication): string {
-  return p.doi || p.code || '';
+  return p.doi || '';
 }
 
 // Build sub-topics (fine keys) -> tag list for an area, in the area's key order.

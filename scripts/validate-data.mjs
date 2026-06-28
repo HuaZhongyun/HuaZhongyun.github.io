@@ -57,7 +57,7 @@ for (const e of bib.entries) {
   if (f.category) usedCats.add(f.category.trim());
   else warn(`publications.bib [${id}]: no category`);
 
-  for (const field of ['code', 'doi']) {
+  for (const field of ['doi']) {
     const raw = f[field];
     if (raw == null) continue;
     // The bib parser's raw mode can append a trailing newline to a field; the
