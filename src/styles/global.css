@@ -9,7 +9,7 @@
   --link: #1a5fb4;
   --tag-bg: #f2f2f2;
   --radius: 8px;
-  --maxw: 860px;
+  --maxw: 920px;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC",
     "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
 }
@@ -31,7 +31,7 @@ body {
   font-family: var(--font);
   color: var(--fg);
   background: var(--bg);
-  line-height: 1.65;
+  line-height: 1.5;
   font-size: 16.5px;
 }
 
@@ -162,6 +162,18 @@ section:first-of-type { border-top: 0; }
 .interest p { margin: 0; color: var(--muted); font-size: 0.92rem; }
 @media (max-width: 600px) { .interests { grid-template-columns: 1fr; } }
 
+/* ---- news (featured panel on the homepage) ---- */
+section.news-feature {
+  border-top: none;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  padding: 18px 22px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+.news-feature .section-title { color: var(--accent); margin-bottom: 12px; }
+
 /* ---- news ---- */
 .news { list-style: none; margin: 0; padding: 0; }
 .news li { display: flex; gap: 14px; padding: 7px 0; align-items: baseline; }
@@ -245,8 +257,7 @@ section:first-of-type { border-top: 0; }
 
 /* ---- generic lists ---- */
 .plain-list { list-style: none; margin: 0; padding: 0; }
-.plain-list li { padding: 6px 0; border-bottom: 1px solid var(--line); }
-.plain-list li:last-child { border-bottom: 0; }
+.plain-list li { padding: 4px 0; }
 .sub-head { font-size: 1.02rem; margin: 18px 0 6px; color: var(--accent); }
 
 /* ---- footer ---- */

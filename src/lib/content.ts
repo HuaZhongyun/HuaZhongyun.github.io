@@ -43,6 +43,7 @@ export interface Profile {
   photo: string;
   emails: string[];
   scholar_id: string;
+  news_preview?: number;
   socials: { key: string; label: string; url: string }[];
   bio: { en: string; zh: string; contact: I18nField };
   recruiting?: { title: I18nField; body: I18nField };

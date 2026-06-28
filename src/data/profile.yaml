@@ -23,6 +23,9 @@ emails:
 # Google Scholar profile id — also used by the citation badge.
 scholar_id: Sl0BI_IAAAAJ
 
+# How many recent news items to show before the "More news" toggle.
+news_preview: 5
+
 # Social / academic links. Leave url empty to hide an icon.
 socials:
   - { key: scholar, label: Google Scholar, url: "https://scholar.google.com/citations?user=Sl0BI_IAAAAJ&hl=en" }

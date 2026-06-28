@@ -31,26 +31,9 @@ const selected = getSelected(8);
     )}
   </section>
 
-  <section id="interests">
-    <h2 class="section-title"><L en={t('section.interests', 'en')} zh={t('section.interests', 'zh')} /></h2>
-    <div class="interests">
-      {profile.interests.map((it) => {
-        const name = pair(it.name); const desc = pair(it.desc);
-        return (
-          <div class="interest">
-            <h3><L en={name.en} zh={name.zh} /></h3>
-            <p><L en={desc.en} zh={desc.zh} /></p>
-          </div>
-        );
-      })}
-    </div>
-  </section>
-
-  <section id="news">
-    <h2 class="section-title">
-      <L en={t('section.news', 'en')} zh={t('section.news', 'zh')} />
-    </h2>
-    <NewsList limit={5} />
+  <section id="news" class="news-feature">
+    <h2 class="section-title">🔥 <L en={t('section.news', 'en')} zh={t('section.news', 'zh')} /></h2>
+    <NewsList limit={profile.news_preview ?? 5} />
   </section>
 
   <section id="selected">

@@ -13,7 +13,6 @@ export const UI = {
   'nav.service': { en: 'Service', zh: '学术服务' },
 
   'section.about': { en: 'About', zh: '个人简介' },
-  'section.interests': { en: 'Research Interests', zh: '研究方向' },
   'section.news': { en: 'News', zh: '新闻动态' },
   'section.selected': { en: 'Representative Publications', zh: '代表性论文' },
   'section.honors': { en: 'Awards & Recognitions', zh: '获奖与荣誉' },
