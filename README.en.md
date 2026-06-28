@@ -72,6 +72,27 @@ Full example (every optional field used; values are self-consistent — TIFS is 
 }
 ```
 
+Conference paper: use `@inproceedings`, put the venue name (acronym in parentheses
+drives the tag), and set **only `ccf`** — JCR / CAS tiers are journal-only:
+
+```bibtex
+@inproceedings{zhao2025robust,
+  author = {Lei Zhao and Your Name},
+  authorsraw = {Lei Zhao and Your Name},
+  title = {Robust Backdoor Defense via Trigger Reconstruction},
+  venue = {Proc. of ACM Conference on Computer and Communications Security (ACM CCS)},
+  year = {2025},
+  pages = {1123-1137},
+  category = {backdoor},
+  corresponding = {yes},
+  status = {accepted},
+  selected = {yes},
+  doi = {https://doi.org/10.1145/3658644.1234567},
+  github = {https://github.com/your-id/robust-backdoor},
+  ccf = {A}
+}
+```
+
 ### Manage publication groups
 Each paper carries a **fine-grained** `category` key (e.g. `dedup-audit`,
 `deepfake`, `chaotic-system`). The **display groups** on the Publications page are

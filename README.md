@@ -70,6 +70,26 @@
 }
 ```
 
+会议论文：用 `@inproceedings`，venue 写会议名（括号里放缩写，标签会用它），**只标 `ccf`**——JCR / 中科院分区是期刊专属，会议不填：
+
+```bibtex
+@inproceedings{zhao2025robust,
+  author = {Lei Zhao and Your Name},
+  authorsraw = {Lei Zhao and Your Name},
+  title = {Robust Backdoor Defense via Trigger Reconstruction},
+  venue = {Proc. of ACM Conference on Computer and Communications Security (ACM CCS)},
+  year = {2025},
+  pages = {1123-1137},
+  category = {backdoor},
+  corresponding = {yes},
+  status = {accepted},
+  selected = {yes},
+  doi = {https://doi.org/10.1145/3658644.1234567},
+  github = {https://github.com/your-id/robust-backdoor},
+  ccf = {A}
+}
+```
+
 ### 管理论文分组
 每篇论文带一个**细粒度** `category` key（如 `dedup-audit`、`deepfake`、
 `chaotic-system`）。论文页的**展示分组**在 `src/data/categories.yaml` 中定义，每个
