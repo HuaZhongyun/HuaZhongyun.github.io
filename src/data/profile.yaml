@@ -65,12 +65,9 @@ recruiting:
     zh: 招生招聘
   body:
     en: >
-      I am looking for self-motivated Ph.D. students, master's students, and research
-      interns interested in Applied Cryptography and Trustworthy AI. Outstanding
-      candidates with a strong background in cryptography, security, or machine learning
-      are encouraged to email me with your CV, transcripts, and a brief statement of interest.
+      I am looking for highly motivated postdoctoral researchers, Ph.D. students, master's students, and research interns to join my research group in Applied Cryptography and Trustworthy AI. Outstanding candidates with a strong background in cryptography, security, or machine learning are encouraged to email me with their CV, transcripts, and a brief statement of interest.
     zh: >
-      课题组长期招收对应用密码学、可信人工智能感兴趣、有自驱力的博士生、硕士生与科研实习生。
+      课题组长期招收对应用密码学、可信人工智能感兴趣、有自驱力的博士后、博士生、硕士生与科研实习生。
       欢迎在密码学、安全或机器学习方面有扎实基础的同学发送简历、成绩单及简要研究兴趣说明至我的邮箱。
 
 # Research interests — drive the research-themes block and publication filters.
