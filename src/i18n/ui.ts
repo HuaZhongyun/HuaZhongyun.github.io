@@ -27,7 +27,7 @@ export const UI = {
   'btn.viewAll': { en: 'View all publications', zh: '查看全部论文' },
   'btn.allPubs': { en: 'All publications →', zh: '全部论文 →' },
   'research.intro': {
-    en: 'My research spans the directions below. A few representative works are listed under each; for the complete list, see all publications.',
+    en: 'My current research interests focus on Applied Cryptography, Multimedia Security, Forensics & AI Security, and Nonlinear Systems & Applications. The word cloud on the right summarizes my current research focuses; for the complete list, see all publications.',
     zh: '我的研究涵盖以下方向，每个方向列出部分代表性工作；完整列表请见全部论文。',
   },
 
