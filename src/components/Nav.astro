@@ -74,9 +74,20 @@ const here = Astro.url.pathname.replace(/\/+$/, '') || '/';
     });
 
     // shrink the header into a compact bar once the page is scrolled
-       var header = document.querySelector('.site-header');
-       function onScroll() { if (header) header.classList.toggle('is-scrolled', window.scrollY > 60); }
-       window.addEventListener('scroll', onScroll, { passive: true });
-       onScroll();
+    var header = document.querySelector('.site-header');
+    var compact = false;
+    function onScroll() {
+      if (!header) return;
+
+      if (!compact && window.scrollY > 90) {
+        compact = true;
+        header.classList.add('is-scrolled');
+      } else if (compact && window.scrollY < 30) {
+        compact = false;
+        header.classList.remove('is-scrolled');
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
   })();
 </script>
