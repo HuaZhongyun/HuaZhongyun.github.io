@@ -76,14 +76,20 @@ const here = Astro.url.pathname.replace(/\/+$/, '') || '/';
     // shrink the header into a compact bar once the page is scrolled
     var header = document.querySelector('.site-header');
     var compact = false;
+    var lockedUntil = 0;
     function onScroll() {
       if (!header) return;
+      var y = window.scrollY || window.pageYOffset || 0;
+      var now = Date.now();
+      if (now < lockedUntil) return;
 
-      if (!compact && window.scrollY > 90) {
+      if (!compact && y > 240) {
         compact = true;
+        lockedUntil = now + 300;
         header.classList.add('is-scrolled');
-      } else if (compact && window.scrollY < 30) {
+      } else if (compact && y < 40) {
         compact = false;
+        lockedUntil = now + 300;
         header.classList.remove('is-scrolled');
       }
     }
