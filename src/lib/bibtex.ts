@@ -17,7 +17,7 @@ export interface Publication {
   number?: string;
   pages?: string;
   category: Category;
-  corresponding: boolean;
+  correspondingAuthors: string[];
   status?: string; // "accepted" | "in press"
   award?: string;
   selected: boolean;
@@ -51,7 +51,7 @@ function loadPublications(): Publication[] {
       number: opt(f.number),
       pages: opt(f.pages),
       category: (opt(f.category) as Category) ?? 'crypto',
-      corresponding: s(f.corresponding) === 'yes',
+      correspondingAuthors: opt(f.correspondingauthors)?.split(/\s*;\s*/).map((x) => x.trim()).filter(Boolean) ?? [],
       status: opt(f.status),
       award: opt(f.award),
       selected: s(f.selected) === 'yes',
@@ -255,16 +255,23 @@ export function toBibtex(p: Publication): string {
 }
 
 const ME_RE = /(zhong\s*yun\s+hua|hua\s+zhong\s*yun|花忠云)/i;
+const escRe = (v: string) => v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-/** Render the author list as HTML, bolding the site owner's name. */
+/** Render the author list as HTML, bolding the site owner and marking corresponding authors. */
 export function authorsHTML(p: Publication): string {
   const escaped = p.authorsRaw
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;');
   let html = escaped.replace(ME_RE, (m) => `<strong class="me">${m}</strong>`);
-  if (p.corresponding) {
-    html = html.replace(/(<strong class="me">[^<]*<\/strong>)/, '$1<sup title="Corresponding author">*</sup>');
+
+  for (const name of p.correspondingAuthors) {
+    const re = new RegExp(`(<strong class="me">)?(${escRe(name)})(</strong>)?(?!<sup)`, 'i');
+    html = html.replace(re, (_m, open = '', author, close = '') => {
+      const rendered = open ? `${open}${author}${close}` : author;
+      return `${rendered}<sup title="Corresponding author">*</sup>`;
+    });
   }
+
   return html;
 }
