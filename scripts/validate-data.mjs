@@ -82,7 +82,7 @@ for (const e of bib.entries) {
   // enum fields
   if (f.corresponding && f.corresponding.trim() !== 'yes') err(`publications.bib [${id}]: corresponding must be "yes", got "${f.corresponding}"`);
   if (f.selected && f.selected.trim() !== 'yes') err(`publications.bib [${id}]: selected must be "yes", got "${f.selected}"`);
-  if (f.status && !/^(accepted|in press)$/i.test(f.status.trim())) err(`publications.bib [${id}]: status must be "accepted" or "in press", got "${f.status}"`);
+  if (f.status && !/^(accepted|in press|early access)$/i.test(f.status.trim())) err(`publications.bib [${id}]: status must be "accepted", "in press", or "early access", got "${f.status}"`);
 }
 // every paper category should map to a known group (else it falls into a raw-key group)
 for (const c of usedCats) {
