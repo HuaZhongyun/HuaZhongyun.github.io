@@ -33,12 +33,17 @@ function loadPublications(): Publication[] {
   const bib = parse(bibText, { raw: true });
   // `raw: true` keeps values verbatim, which can leave trailing newlines on the
   // last field of an entry — trim everything (URLs especially) to avoid bad hrefs.
-  const s = (v?: string) => (v ?? '').trim();
-  const opt = (v?: string) => {
+  const s = (v?: unknown) => {
+    if (v == null) return '';
+    if (Array.isArray(v)) return v.map((x) => s(x)).filter(Boolean).join(' and ');
+    if (typeof v === 'object' && 'name' in v) return String((v as { name?: unknown }).name ?? '').trim();
+    return String(v).trim();
+  };
+  const opt = (v?: unknown) => {
     const t = s(v);
     return t.length ? t : undefined;
   };
-  const displayAuthors = (v?: string) => {
+  const displayAuthors = (v?: unknown) => {
     const names = s(v).split(/\s+and\s+/i).map((x) => x.trim()).filter(Boolean);
     if (names.length <= 1) return s(v);
     if (names.every((name) => /[一-鿿]/.test(name))) return names.join('、');
@@ -46,7 +51,7 @@ function loadPublications(): Publication[] {
     return `${names.slice(0, -1).join(', ')}, and ${names[names.length - 1]}`;
   };
   const pubs: Publication[] = bib.entries.map((e) => {
-    const f = e.fields as Record<string, string>;
+    const f = e.fields as Record<string, unknown>;
     return {
       key: e.key,
       type: e.type,
