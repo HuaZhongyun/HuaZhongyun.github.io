@@ -1,8 +1,8 @@
 # News feed (most recent first). date: YYYY-MM. Add a line at the top for new items.
 # highlight: true  -> emphasized on the homepage.
 - date: 2026-06
-  en: "A paper is accepted by IEEE TC; a paper is accepted by IEEE TSC; two papers are accepted by ECCV; a paper is accepted by IEEE TDSC; a paper is accepted by IEEE TIFS; a paper is accepted by ESORICS 2026."
-  zh: "一篇论文被 IEEE TC 录用；一篇被 IEEE TSC 录用；两篇被 ECCV 录用；一篇被 IEEE TDSC 录用；一篇被 IEEE TIFS录用；一篇被ESORICS 2026 录用。"
+  en: "A paper is accepted by IEEE TC; a paper is accepted by IEEE TSC; two papers are accepted by ECCV; a paper is accepted by IEEE TDSC; a paper is accepted by IEEE TIFS; a paper is accepted by ESORICS 2026; a paper is accepted by IEEE SPL."
+  zh: "一篇论文被 IEEE TC 录用；一篇被 IEEE TSC 录用；两篇被 ECCV 录用；一篇被 IEEE TDSC 录用；一篇被 IEEE TIFS录用；一篇被ESORICS 2026 录用；。"
 - date: 2026-05
   en: "Two papers are accepted by ICML; a paper is accepted by IEEE TDSC."
   zh: "两篇论文被 ICML 录用；一篇被 IEEE TDSC 录用。"
