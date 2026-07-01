@@ -180,10 +180,8 @@ function makeKey(e) {
 let bib = `% Publications for Zhongyun Hua — structured source of truth.
 % Standard BibTeX fields + custom fields:
 %   category = crypto | multimedia | nonlinear
-%   authorsraw = original display author string (own name bolded at render time)
-%   corresponding = yes  (when Zhongyun Hua is the corresponding author)
+%   correspondingauthors = {Zhongyun Hua; Other Name}
 %   status = accepted | in press
-%   venue = full display venue name
 %   pdf / doi / code = links
 %   award = award text;  selected = yes (featured on the homepage)
 % Add a paper: append one entry below. Set "selected = yes" to feature it.\n\n`;
@@ -196,10 +194,8 @@ for (const e of entries) {
   if (selected) selectedCount++;
   bib += `@${e.type}{${key},\n`;
   bib += bibField('author', e.authors.join(' and '));
-  bib += bibField('authorsraw', e.authorsRaw);
   bib += bibField('title', e.title);
   bib += bibField(venueKey, e.venue);
-  bib += bibField('venue', e.venue);
   bib += bibField('year', e.year || '');
   bib += bibField('volume', e.volume);
   bib += bibField('number', e.number);

@@ -38,14 +38,21 @@ function loadPublications(): Publication[] {
     const t = s(v);
     return t.length ? t : undefined;
   };
+  const displayAuthors = (v?: string) => {
+    const names = s(v).split(/\s+and\s+/i).map((x) => x.trim()).filter(Boolean);
+    if (names.length <= 1) return s(v);
+    if (names.every((name) => /[一-鿿]/.test(name))) return names.join('、');
+    if (names.length === 2) return `${names[0]} and ${names[1]}`;
+    return `${names.slice(0, -1).join(', ')}, and ${names[names.length - 1]}`;
+  };
   const pubs: Publication[] = bib.entries.map((e) => {
     const f = e.fields as Record<string, string>;
     return {
       key: e.key,
       type: e.type,
-      authorsRaw: s(f.authorsraw ?? f.author),
+      authorsRaw: displayAuthors(f.author),
       title: s(f.title),
-      venue: s(f.venue ?? f.journal ?? f.booktitle),
+      venue: s(f.journal ?? f.booktitle),
       year: parseInt(s(f.year) || '0', 10) || 0,
       volume: opt(f.volume),
       number: opt(f.number),

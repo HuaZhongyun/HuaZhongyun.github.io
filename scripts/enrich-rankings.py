@@ -68,7 +68,7 @@ for blk in blocks:
     if not blk.startswith("@"):
         out_blocks.append(blk); continue
     is_conf = blk[:14].lower().startswith("@inproceedings")
-    vm = re.search(r"venue = \{([^}]*)\}", blk)
+    vm = re.search(r"(?:journal|booktitle) = \{([^}]*)\}", blk)
     venue = vm.group(1).strip() if vm else ""
     info = enrich(venue, is_conf) if venue else {}
     seen.setdefault(venue, (is_conf, info))

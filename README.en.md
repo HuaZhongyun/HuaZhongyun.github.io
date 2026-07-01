@@ -24,9 +24,8 @@ Append one entry to `src/data/publications.bib`:
 ```bibtex
 @article{key2026short,
   author = {First Author and Your Name and ...},
-  authorsraw = {First Author, Your Name, ...},   % exact display order
   title = {Paper Title},
-  venue = {IEEE Transactions on ...},               % shown in italics
+  journal = {IEEE Transactions on ...},               % shown in italics
   year = {2026},
   category = {dedup-audit},     % fine topic key; grouped via categories.yaml
   corresponding = {yes},        % optional: marks the owner as corresponding (*)
@@ -41,7 +40,7 @@ Append one entry to `src/data/publications.bib`:
 }
 ```
 
-The author's own name is automatically bolded; `selected = yes` papers appear in
+The display author list is generated automatically from `author`; the author's own name is automatically bolded; `selected = yes` papers appear in
 the homepage "Selected Publications" block (it back-fills with the most recent
 papers if fewer than 8 are flagged). **A BibTeX entry is
 generated automatically for every paper** from its fields — clicking the "BibTeX"
@@ -52,9 +51,8 @@ Full example (every optional field used; values are self-consistent — TIFS is 
 ```bibtex
 @article{li2024secure,
   author = {Ying Li and Your Name and Wei Zhang},
-  authorsraw = {Ying Li, Your Name, and Wei Zhang},
   title = {Secure and Efficient Encrypted Search over Outsourced Cloud Data},
-  venue = {IEEE Transactions on Information Forensics and Security},
+  journal = {IEEE Transactions on Information Forensics and Security},
   year = {2024},
   volume = {19},
   number = {3},
@@ -72,15 +70,14 @@ Full example (every optional field used; values are self-consistent — TIFS is 
 }
 ```
 
-Conference paper: use `@inproceedings`, put the venue name (acronym in parentheses
+Conference paper: use `@inproceedings`, put the conference name in `booktitle` (acronym in parentheses
 drives the tag), and set **only `ccf`** — JCR / CAS tiers are journal-only:
 
 ```bibtex
 @inproceedings{zhao2025robust,
   author = {Lei Zhao and Your Name},
-  authorsraw = {Lei Zhao and Your Name},
   title = {Robust Backdoor Defense via Trigger Reconstruction},
-  venue = {Proc. of ACM Conference on Computer and Communications Security (ACM CCS)},
+  booktitle = {Proc. of ACM Conference on Computer and Communications Security (ACM CCS)},
   year = {2025},
   pages = {1123-1137},
   category = {backdoor},

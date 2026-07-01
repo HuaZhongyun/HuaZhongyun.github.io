@@ -52,8 +52,8 @@ for (const e of bib.entries) {
   for (const req of ['title', 'year']) {
     if (!f[req] || !String(f[req]).trim()) err(`publications.bib [${id}]: missing "${req}"`);
   }
-  if (!f.authorsraw && !f.author) err(`publications.bib [${id}]: missing author/authorsraw`);
-  if (!f.venue && !f.journal && !f.booktitle) warn(`publications.bib [${id}]: no venue/journal/booktitle`);
+  if (!f.author) err(`publications.bib [${id}]: missing author`);
+  if (!f.journal && !f.booktitle) warn(`publications.bib [${id}]: no journal/booktitle`);
   if (f.category) usedCats.add(f.category.trim());
   else warn(`publications.bib [${id}]: no category`);
 

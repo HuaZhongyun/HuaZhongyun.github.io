@@ -23,9 +23,8 @@
 ```bibtex
 @article{key2026short,
   author = {First Author and Your Name and ...},
-  authorsraw = {First Author, Your Name, ...},   % 展示用的精确作者顺序
   title = {Paper Title},
-  venue = {IEEE Transactions on ...},               % 以斜体显示
+  journal = {IEEE Transactions on ...},             % 期刊名
   year = {2026},
   category = {dedup-audit},     % 细粒度方向 key；在 categories.yaml 中聚合成分组
   corresponding = {yes},        % 可选：标记本人为通讯作者（*）
@@ -40,7 +39,7 @@
 }
 ```
 
-本人的名字会自动加粗；标记了 `selected = yes` 的论文会出现在首页“代表性论文”
+页面会自动把 `author` 转成展示用作者列表，本人的名字会自动加粗；标记了 `selected = yes` 的论文会出现在首页“代表性论文”
 区块（若标记数量不足 8 篇，会自动用最新论文补足）。
 **每篇论文的 BibTeX 由结构化字段自动生成**，点击论文上的 “BibTeX” 按钮会弹出小窗口
 （可一键复制），无需手动维护 `bibtexurl`。
@@ -50,9 +49,8 @@
 ```bibtex
 @article{li2024secure,
   author = {Ying Li and Your Name and Wei Zhang},
-  authorsraw = {Ying Li, Your Name, and Wei Zhang},
   title = {Secure and Efficient Encrypted Search over Outsourced Cloud Data},
-  venue = {IEEE Transactions on Information Forensics and Security},
+  journal = {IEEE Transactions on Information Forensics and Security},
   year = {2024},
   volume = {19},
   number = {3},
@@ -70,14 +68,13 @@
 }
 ```
 
-会议论文：用 `@inproceedings`，venue 写会议名（括号里放缩写，标签会用它），**只标 `ccf`**——JCR / 中科院分区是期刊专属，会议不填：
+会议论文：用 `@inproceedings`，`booktitle` 写会议名（括号里放缩写，标签会用它），**只标 `ccf`**——JCR / 中科院分区是期刊专属，会议不填：
 
 ```bibtex
 @inproceedings{zhao2025robust,
   author = {Lei Zhao and Your Name},
-  authorsraw = {Lei Zhao and Your Name},
   title = {Robust Backdoor Defense via Trigger Reconstruction},
-  venue = {Proc. of ACM Conference on Computer and Communications Security (ACM CCS)},
+  booktitle = {Proc. of ACM Conference on Computer and Communications Security (ACM CCS)},
   year = {2025},
   pages = {1123-1137},
   category = {backdoor},
