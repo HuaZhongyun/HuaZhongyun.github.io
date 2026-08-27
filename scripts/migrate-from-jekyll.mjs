@@ -13,11 +13,6 @@ const start = src.indexOf('<h1 id="-Publications">');
 const end = src.indexOf('<h1 id="-Peer Review">');
 const region = src.slice(start, end);
 
-const CAT_MAP = {
-  'Applied Cryptography': 'crypto',
-  'Multimedia Security': 'multimedia',
-  'Nonlinear Systems': 'nonlinear',
-};
 function catKey(h4text) {
   if (/Applied Cryptography/i.test(h4text)) return 'crypto';
   if (/Multimedia|Forensics|AI Security|Trustworthy/i.test(h4text)) return 'multimedia';

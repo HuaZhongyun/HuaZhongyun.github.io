@@ -6,7 +6,7 @@ interface Props {
   as?: keyof HTMLElementTagNameMap;
   class?: string;
 }
-const { en, zh, as = 'span', class: cls } = Astro.props;
+const { en, zh, as = 'span', class: cls } = Astro.props as Props;
 const Tag = as as any;
 const zhText = zh && zh.length ? zh : en;
 ---
