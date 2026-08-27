@@ -7,6 +7,8 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://huazhongyun.github.io',
   base: '/',
+  // Keep generated pages readable for inspection and maintenance.
+  compressHTML: false,
   integrations: [sitemap()],
   build: {
     // emit cleaner /publications/ style URLs
