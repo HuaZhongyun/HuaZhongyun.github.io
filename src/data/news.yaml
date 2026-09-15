@@ -1,8 +1,8 @@
 # News feed (most recent first). date: YYYY-MM. Add a line at the top for new items.
 # highlight: true  -> emphasized on the homepage.
 - date: 2026-09
-  en: "A paper is accepted by ACM CCS."
-  zh: "一篇论文被 ACM CCS 录用。"
+  en: "A paper is accepted by ACM CCS；I am invited to serve as an Associate Editor of IEEE TSC."
+  zh: "一篇论文被 ACM CCS 录用；受邀担任 IEEE TSC."
 - date: 2026-08
   en: "A paper is accepted by IEEE TMM."
   zh: "一篇论文被 IEEE TMM 录用。"
