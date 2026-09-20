@@ -1,8 +1,8 @@
 # News feed (most recent first). date: YYYY-MM. Add a line at the top for new items.
 # highlight: true  -> emphasized on the homepage.
 - date: 2026-09
-  en: "A paper is accepted by ACM CCS；I am invited to serve as an Associate Editor of IEEE TSC."
-  zh: "一篇论文被 ACM CCS 录用；受邀担任 IEEE TSC."
+  en: "A paper is accepted by ACM CCS；I am invited to serve as an Associate Editor of IEEE TSC；two papers are accepted by IEEE TDSC."
+  zh: "一篇论文被 ACM CCS 录用；受邀担任 IEEE TSC 副编委; 两篇论文被 IEEE TDSC 录用。"
 - date: 2026-08
   en: "A paper is accepted by IEEE TMM."
   zh: "一篇论文被 IEEE TMM 录用。"
@@ -14,7 +14,7 @@
   zh: "一篇论文被 IEEE TC 录用；一篇被 IEEE TSC 录用；两篇被 ECCV 录用；一篇被 IEEE TDSC 录用；一篇被 IEEE TIFS录用；一篇被ESORICS 2026 录用；。"
 - date: 2026-05
   en: "Two papers are accepted by ICML; a paper is accepted by IEEE TDSC."
-  zh: "两篇论文被 ICML 录用；一篇被 IEEE TDSC 录用。"
+  zh: "两篇论文被 ICML 录用；一篇论文被 IEEE TDSC 录用。"
 - date: 2026-03
   en: "A paper is accepted by IEEE TSC."
   zh: "一篇论文被 IEEE TSC 录用。"
