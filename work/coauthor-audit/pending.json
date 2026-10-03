@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Lightweight Joint Audio-Visual Deepfake Detection via Single-Stream Multi-Modal Learning Framework",
+    "status": "arXiv 2506.07358，2025；作者包含 Zhongyun Hua。未核实正式发表版本。",
+    "url": "https://arxiv.org/abs/2506.07358"
+  },
+  {
+    "title": "Prior-Attack Defense: Feature-Preserving Perturbations Through Bi-level Meta-learning",
+    "status": "SSRN 5898399，2025；作者包含 Zhongyun Hua。未核实正式发表版本。",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5898399"
+  },
+  {
+    "title": "Rethinking Data Augmentation for Adversarial Distillation: An Excess Risk Perspective",
+    "status": "第三方聚合页列出 Zhongyun Hua 并标为 ICLR 2026，但查到的 OpenReview PDF 为匿名投稿版本，未核实官方录用决定；不能计入正式发表遗漏。",
+    "url": "https://openreview.net/pdf/4af32dbe34ad2a69203a2477e557331f10522fad.pdf"
+  }
+]

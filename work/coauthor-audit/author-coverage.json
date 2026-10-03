@@ -1,0 +1,1546 @@
+[
+  {
+    "name": "Yifeng Zheng",
+    "local_coauthored_count": 37,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://yifengzcs.github.io/publications.html",
+    "note": "已核对联合论文；SecureComm 条目此前已补录"
+  },
+  {
+    "name": "Yicong Zhou",
+    "local_coauthored_count": 35,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://www.fst.um.edu.mo/personal/yicongzhou/publication/",
+    "note": "直接访问失败；使用搜索索引与公开 CV 补查，不能保证最新完整覆盖"
+  },
+  {
+    "name": "Yushu Zhang",
+    "local_coauthored_count": 34,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://yushuzhang.cn/",
+    "note": "已读取个人主页公开论文列表；列表并非全部历史成果"
+  },
+  {
+    "name": "Han Bao",
+    "local_coauthored_count": 30,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://hanbao.wiki/en/publications/",
+    "note": "已读取论文列表；发现遗漏"
+  },
+  {
+    "name": "Xiaohua Jia",
+    "local_coauthored_count": 16,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://www.cs.cityu.edu.hk/~jia/",
+    "note": "主页提供 DBLP 链接；另核对出版商记录"
+  },
+  {
+    "name": "Hejiao Huang",
+    "local_coauthored_count": 17,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Kuiyuan Zhang",
+    "local_coauthored_count": 15,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://redamancyay.github.io/publications/",
+    "note": "已核对个人论文列表，并补查出版商"
+  },
+  {
+    "name": "Leo Yu Zhang",
+    "local_coauthored_count": 15,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://riselabgriffith.github.io/publications/",
+    "note": "已检索实验室长列表联合署名，并核对返回条目"
+  },
+  {
+    "name": "Shuang Yi",
+    "local_coauthored_count": 14,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Qing Liao",
+    "local_coauthored_count": 16,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://www.liaoqing.me/",
+    "note": "个人站点无法读取；学校页动态内容不完整"
+  },
+  {
+    "name": "Mingyang Song",
+    "local_coauthored_count": 13,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yinxing Zhang",
+    "local_coauthored_count": 13,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://xzy.kust.edu.cn/info/1127/3120.htm",
+    "note": "已读取学校主页论文列表"
+  },
+  {
+    "name": "Yongyong Chen",
+    "local_coauthored_count": 13,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://cyyhit.github.io/publications/",
+    "note": "已读取精选论文列表"
+  },
+  {
+    "name": "Bocheng Bao",
+    "local_coauthored_count": 20,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://bochengbao.com/publications/",
+    "note": "已读取论文列表；页面更新范围有限"
+  },
+  {
+    "name": "Songlei Wang",
+    "local_coauthored_count": 11,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://songleiw.github.io/homepage/",
+    "note": "已核对主页联合论文"
+  },
+  {
+    "name": "Yuanman Li",
+    "local_coauthored_count": 10,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://yuanmanli.github.io/",
+    "note": "动态页面未返回完整论文；补查搜索索引"
+  },
+  {
+    "name": "Yansong Gao",
+    "local_coauthored_count": 8,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://garrisongys.github.io/garrison//publications/",
+    "note": "已核对联合论文"
+  },
+  {
+    "name": "Quan Xu",
+    "local_coauthored_count": 9,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Mo Chen",
+    "local_coauthored_count": 8,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Shuangqing Xu",
+    "local_coauthored_count": 7,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Xiangli Xiao",
+    "local_coauthored_count": 7,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Rushi Lan",
+    "local_coauthored_count": 8,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Houzhen Li",
+    "local_coauthored_count": 7,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Wei Jiang",
+    "local_coauthored_count": 6,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yuhang Zhou",
+    "local_coauthored_count": 6,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Nankun Mu",
+    "local_coauthored_count": 5,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://faculty.cqu.edu.cn/NankunMu/zh_CN/lwcg/343342/list/index.htm",
+    "note": "已访问主页及论文栏目；可解析内容有限"
+  },
+  {
+    "name": "Enji Liang",
+    "local_coauthored_count": 5,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zhaoquan Gu",
+    "local_coauthored_count": 5,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Tao Xiang",
+    "local_coauthored_count": 5,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://faculty.cqu.edu.cn/txiang/en/lwcg/291870/list/index.htm",
+    "note": "已访问主页及论文栏目；可解析内容有限"
+  },
+  {
+    "name": "Linshan Hou",
+    "local_coauthored_count": 6,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jian Weng",
+    "local_coauthored_count": 5,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://jessy-js.github.io/cryptjweng.github.io/",
+    "note": "已读取主页；完整列表依赖学术索引"
+  },
+  {
+    "name": "C. L. Philip Chen",
+    "local_coauthored_count": 5,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yuming Fang",
+    "local_coauthored_count": 4,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://jxufeai.github.io/",
+    "note": "实验室页面为动态内容；未完整读取"
+  },
+  {
+    "name": "Guoai Xu",
+    "local_coauthored_count": 4,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yong Xiang",
+    "local_coauthored_count": 4,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Tao Wang",
+    "local_coauthored_count": 4,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Chi-Man Pun",
+    "local_coauthored_count": 4,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Binghang Zhou",
+    "local_coauthored_count": 4,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Lei Xu",
+    "local_coauthored_count": 4,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://leixu-crypto.github.io/",
+    "note": "已读取精选论文"
+  },
+  {
+    "name": "Xinrui Liu",
+    "local_coauthored_count": 3,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Xingyu Liu",
+    "local_coauthored_count": 3,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Ruoyu Zhao",
+    "local_coauthored_count": 3,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Wenying Wen",
+    "local_coauthored_count": 3,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Wei Luo",
+    "local_coauthored_count": 3,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zixuan Yang",
+    "local_coauthored_count": 3,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zhihua Xia",
+    "local_coauthored_count": 3,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Shuren Qi",
+    "local_coauthored_count": 4,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://shurenqi.github.io/",
+    "note": "已读取精选论文"
+  },
+  {
+    "name": "Yifang Guo",
+    "local_coauthored_count": 3,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Binxuan Xu",
+    "local_coauthored_count": 3,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Xiaolin Xiao",
+    "local_coauthored_count": 3,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yuanhui Su",
+    "local_coauthored_count": 3,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Haibo Hu",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://haibohu.org/publication/",
+    "note": "已检索联合署名 Z. Hua"
+  },
+  {
+    "name": "Chenbin Zhao",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jianhui Zou",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Weijia Cao",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Huajie Ouyang",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yuhong Li",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Weibo Wang",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Menglun Zhou",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yanxiang Wang",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Keke Tang",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://tangbohu.github.io/",
+    "note": "已读取；HHA/NHHA 为既有条目标题差异"
+  },
+  {
+    "name": "Yuze Zhao",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yiming Li",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://liyiming.tech/publications/",
+    "note": "页面主要提供学术索引链接，非完整本地列表"
+  },
+  {
+    "name": "Zeming Hou",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jiantao Zhou",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://www.fst.um.edu.mo/personal/jtzhou/",
+    "note": "直接访问超时；仅完成检索"
+  },
+  {
+    "name": "Xia Li",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Mingfu Xue",
+    "local_coauthored_count": 3,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Fan Jin",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zhihua Zhu",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jiaxin Li",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Shuqin Wang",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Xi Zhang",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zihua Wu",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zhuowu Wang",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jun Ma",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Hang Cai",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Lei Zhu",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yue Wu",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Kexin Li",
+    "local_coauthored_count": 3,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Kang Rong",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yazhou Liu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Lin Ye",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Runze Xie",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yunting Zhang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Wenzheng Xia",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Binglun Li",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zhihui Huang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Ge Gao",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Haining Yu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yue Sun",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Ying Lin",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Feng Wang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Fuyi Wang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Youqin Chen",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Guang Tang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Qingwang Wang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zhiquan Liu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yufei Yao",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Xiaocong Lin",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jing Chen",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Weijing You",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jie Cui",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Longji Li",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zhili Zhou",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Fei Peng",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zizheng Wang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Guangxia Xu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Xingliang Yuan",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://xyuancs.github.io/",
+    "note": "已读取精选论文"
+  },
+  {
+    "name": "Cong Wang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://www.cs.cityu.edu.hk/~congwang/",
+    "note": "已读取主页；完整论文外链未全部覆盖"
+  },
+  {
+    "name": "Tianchen Xiong",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Bo Fang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jinghua Jiang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Xinpeng Zhang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Lei Cheng",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Ziyi Wang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Juan Zhou",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "李忠文",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "丁烨",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "李君一",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yu Liao",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Weilong Peng",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://terrypangooo.github.io/",
+    "note": "已读取精选论文；更新范围有限"
+  },
+  {
+    "name": "Xiaofei Wang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Daizong Liu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://liudaizong.github.io/publications/",
+    "note": "已读取精选论文"
+  },
+  {
+    "name": "Peican Zhu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zhihong Tian",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Junhuang Huang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jianting Ning",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yanjun Zhang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Junfeng Guo",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Hui Wang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Shouxin Liu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Seok-Tae Kim",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Xiaowei Li",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yanxiang Zhao",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zhipu Liu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Songhua Chen",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yuanyuan Sun",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Ruili Feng",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Qiuyu Duan",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jinhao Cui",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://gcjh.github.io/2024/08/08/Homepage/",
+    "note": "已读取主页论文"
+  },
+  {
+    "name": "Heyan Chai",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://aisc.szu.edu.cn/info/1041/1377.htm",
+    "note": "已读取学校个人介绍"
+  },
+  {
+    "name": "Yanbin Gong",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Ye Ding",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Cuiyun Gao",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zhibin Zheng",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Lei Chen",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jiaxiang You",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Weiwei Sun",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yan Tong",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "张瑜",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Hua Zhang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Lanhao Ye",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Haokun Cao",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Wei Wang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jiahao Zhao",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jiajia Jiang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zhe Liu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jiwu Huang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Nuo Chen",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Xuanqi Zhang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Qiangqiang Shen",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jingyong Su",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://su-cps.github.io/",
+    "note": "已读取精选论文"
+  },
+  {
+    "name": "Zhibin Fu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Zheng Zhang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://cszhengzhang.cn/Pubdate/",
+    "note": "已读取论文页"
+  },
+  {
+    "name": "Youfa Liu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yuchao Su",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jie Du",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Rongqin Liang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://blessinglrq.github.io/blessing.github.io/",
+    "note": "已读取主页论文"
+  },
+  {
+    "name": "Jie Zhao",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Chonglin Gu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Xiaojun Zhang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "LIU WenBo",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Chong Peng",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yuejiao Gong",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Weineng Chen",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yiran Wang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yukai Liu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Hao Chen",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Tao Shen",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jiahua Fan",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Haigang Tang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jinhui Yao",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "ChenLong Yi",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "ChunBiao Li",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "YongXin Li",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Ming Xia",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Yang Gu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Xihong Yu",
+    "local_coauthored_count": 2,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Sicong Liu",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Haibo Jiang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Jianming Cai",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Ning Wang",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "",
+    "note": "已完成联合署名及个人主页检索；未唯一确认可完整核对的个人主页。不能据此认定没有遗漏。"
+  },
+  {
+    "name": "Chengqing Li",
+    "local_coauthored_count": 1,
+    "joint_search_record": true,
+    "homepage_search_record": true,
+    "homepage": "https://www.chengqingli.com/",
+    "note": "直接访问失败；仅完成检索"
+  }
+]
